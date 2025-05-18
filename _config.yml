@@ -8,3 +8,6 @@ navigation:
     url: "/"
   - title: "About Me"
     url: "/about/"
+# ファビコン追加
+include:
+  - favicon.png
