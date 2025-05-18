@@ -8,9 +8,4 @@ navigation:
     url: "/"
   - title: "About Me"
     url: "/about/"
-defaults:
-  - scope:
-      path: ""
-    values:
-      favicon: "/favicon.png"
 
