@@ -1,4 +1,4 @@
 ---
 layout: home
-title: マイブログ
+title: 懐風思潮
 ---
