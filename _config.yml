@@ -1,3 +1,10 @@
 theme: minima
 title: Esprit
 description: This blog explores topics in the humanities, history, philosophy, and psychopathology, while also delving into matters entirely unrelated.
+
+# ナビゲーション設定
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "About Me"
+    url: "/about/"
