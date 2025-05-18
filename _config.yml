@@ -8,9 +8,7 @@ navigation:
     url: "/"
   - title: "About Me"
     url: "/about/"
-# すでにある設定の下に追加
-include:
-  - _includes/head-custom.html
+favicon: /favicon.ico
 
     
 
