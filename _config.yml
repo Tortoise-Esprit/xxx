@@ -1,3 +1,11 @@
 theme: minima
 title: Esprit
 description: This blog explores topics in the humanities, history, philosophy, and psychopathology, while also delving into matters entirely unrelated.
+
+# ↓ 追加
+sass:
+  style: compressed
+
+# ↓ さらに追加
+include:
+  - assets/css/style.css
