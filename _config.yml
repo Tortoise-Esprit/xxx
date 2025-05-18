@@ -8,8 +8,9 @@ navigation:
     url: "/"
   - title: "About Me"
     url: "/about/"
-# ファビコン追加
-include:
-  - favicon.png
-sass:
-  style: compressed
+defaults:
+  - scope:
+      path: ""
+    values:
+      favicon: "/favicon.png"
+
