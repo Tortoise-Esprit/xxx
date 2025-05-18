@@ -3,7 +3,7 @@ layout: page
 title: About me
 permalink: /about/
 ---
-![プロフィール画像](/assets/img/logo.png)
+
 <p align="center">
   <img src="/assets/img/logo.png" alt="プロフィール画像" width="25%">
 </p>
