@@ -11,3 +11,5 @@ navigation:
 # ファビコン追加
 include:
   - favicon.png
+sass:
+  style: compressed
