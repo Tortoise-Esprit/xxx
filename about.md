@@ -3,6 +3,7 @@ layout: page
 title: About me
 permalink: /about/
 ---
+![プロフィール画像](/assets/img/logo.png)
 
 こんにちは。私はエスプリという名前でブログを公開し始めたものです。
 普段は地方都市の医療機関や福祉施設で精神医療に携わっています。
