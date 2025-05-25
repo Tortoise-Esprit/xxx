@@ -48,4 +48,4 @@ and to quietly share lines of thought with others who might hold similar interes
 Theme: Jekyll Minima
 Hosted on: GitHub Pages
 
-Feel free to reach out via the Contact(/contact/)  page.
+Feel free to reach out via the [Contact](/contact/)  page.
