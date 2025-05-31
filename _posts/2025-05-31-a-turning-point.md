@@ -30,7 +30,7 @@ These are extraordinary responsibilities, backed by the state. In a way, it's as
 I pursued this not out of pride, but because I wanted to practice psychiatry with greater independence and precision. After years of effort, I’ve finally reached that point. And I feel the weight of it.
 
 From here on, if I and another qualified physician examine someone in acute psychiatric distress and both determine hospitalization is necessary, the full force of state authority—police power—can be invoked.
-This is known in Japan as "shochi nyūin," or involuntary hospitalization by official mandate. Though systems differ, similar mechanisms exist in many countries. Japan’s “medical protection hospitalization,” however, is unique and raises many ethical and systemic questions—which I’ll leave for another post.
+This is known in Japan as "sochi nyūin," or involuntary hospitalization by official mandate. Though systems differ, similar mechanisms exist in many countries. Japan’s “medical protection hospitalization,” however, is unique and raises many ethical and systemic questions—which I’ll leave for another post.
 
 For now, I just want to acknowledge this turning point in my career.
 Having this independence not only affirms my standing as a clinician, but also provides stability for my family. That matters deeply to me.
