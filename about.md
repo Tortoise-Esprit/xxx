@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 <p align="center">
-<img src="/xxx/assets/img/logo.png" alt="ロゴ画像" width="25%">
+<img src="/xxx/assets/img/logo2.png" alt="ロゴ画像" width="25%">
 </p>
 
 こんにちは。私は*すっとんぱ*という名前でブログを公開し始めたものです。
