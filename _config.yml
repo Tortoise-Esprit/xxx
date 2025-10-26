@@ -1,6 +1,23 @@
+# テーマ設定
 theme: minima
+
+# サイト情報
 title: Esprit
 description: This blog explores topics in the humanities, history, philosophy, and psychopathology, while also delving into matters entirely unrelated.
+
+# サイトURL設定（ここが重要）
+url: "https://tortoise-esprit.github.io"  # 新リポジトリに合わせる
+baseurl: ""                               # ← ここを空にしておく（xxx削除）
+
+# タイムゾーン設定（再発防止）
+timezone: Asia/Tokyo
+
+# ページネーション設定（任意だがおすすめ）
+plugins:
+  - jekyll-paginate
+
+paginate: 10
+paginate_path: "/page:num"
 
 # ナビゲーション設定
 navigation:
@@ -12,8 +29,6 @@ navigation:
     url: "/contact/"
   - title: "Privacy Policy"
     url: "/privacy/"
+
+# ファビコン設定
 favicon: /favicon.ico
-
-    
-
-
