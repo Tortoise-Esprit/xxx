@@ -24,7 +24,7 @@ permalink: /privacy/
 This website, **Esprit**, collects personal information only when visitors voluntarily submit inquiries through the contact form.  
 The information collected (such as your name and email address) will be used solely for the purpose of responding to your inquiry and will not be shared with third parties without your consent.
 
-This site may use third-party services such as Formspree for contact form handling.  
+This site may use third-party services such as **Formspree** for contact form handling.  
 Please note that these services may process your data according to their own privacy policies.
 
 If you wish to have your information deleted or corrected, please contact us through the same form.
