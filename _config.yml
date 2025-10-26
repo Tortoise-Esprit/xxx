@@ -7,7 +7,7 @@ description: This blog explores topics in the humanities, history, philosophy, a
 
 # サイトURL設定（ここが重要）
 url: "https://tortoise-esprit.github.io"  # 新リポジトリに合わせる
-baseurl: ""                               # ← ここを空にしておく（xxx削除）
+baseurl: "xxx"                               # ← ここを空にしておく（xxx削除）
 
 # タイムゾーン設定（再発防止）
 timezone: Asia/Tokyo
