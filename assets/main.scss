@@ -32,3 +32,22 @@ body {
   margin-top: 3rem;
   margin-bottom: 1rem;
 }
+
+/* ヘッダー全体を引き締める */
+.site-header {
+  padding: 0.6rem 0;
+}
+
+/* 中身を横並び */
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ロゴ */
+.site-logo img {
+  height: 28px;   /* 24〜32pxで好み */
+  width: auto;
+  display: block;
+}
