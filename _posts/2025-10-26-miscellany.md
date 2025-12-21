@@ -19,7 +19,8 @@ date: 2025-10-26
 
 　次回は「精神の幾何学」について紹介できればと思うし、いつかフーコーやバタイユについても私論を述べたい。
  
-
+<details>
+<summary><strong>English</strong> (click to open)</summary>
 Quiet Studies and a Pause
 
 Since early July this year until last week, I had been quietly studying occupational health. To be precise, I was studying to obtain the qualification of Labor Hygiene Consultant.
@@ -37,3 +38,4 @@ After a short rest, I hope to regroup and try again.
 Because of this, I had no time at all to read books on psychopathology. But this autumn and winter, I should finally be able to start reading again little by little. I also plan to resume this blog and slowly add new posts.
 
 Next time, I hope to introduce The Geometry of the Mind, and someday I would like to write my own reflections on Foucault and Bataille.
+</details>
