@@ -16,7 +16,9 @@ date: 2025-05-31
 制度上において精神科医の独り立ちを証明しうる資格ではあるが、これを取ったからといって、あがりということには決してならない。よくある例えは「運転免許を持ったからといってはじめから運転がうまいわけではない」というものである。したがって全く安心しているわけではなく、逆にこれから行う業務に対しての不安感や緊張感を感じている方が大きい。こればかりはとにかく法の理解と運用を実務を通じてより洗練させる他ない。業務量も裁量も一気に拡張される。より一層の研鑽を重ねる必要があると思っている。それ故、ここ数年出席していなかった学会のワークショップにも参加しようと思っている。
 
 　これからの私の課題は、残り30年から40年近い職業人生の中で何をなすか、何をすべきなのかをよく考えることだろう。私がどのような分野に特化していくことが良いのかを冷静に見極めたいと思うが、自分の関心領域である精神病理学や哲学をうまく臨床に接続できたらよいと考えている。
-
+ 
+<details>
+<summary><strong>English</strong> (click to open)</summary>
  ### A Turning Point
 I’d like to share something personal.
 
@@ -45,4 +47,4 @@ That’s why I’ve decided to return to workshops and academic meetings I’ve 
 Looking further ahead, I’m starting to think seriously about what I want to accomplish in the remaining 30 or 40 years of my professional life.
 What direction should I take? What’s worth devoting myself to?
 Ideally, I’d like to find a way to integrate what I’ve always cared about—psychopathology and philosophy—into the heart of clinical practice.
-
+</details>
