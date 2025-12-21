@@ -14,3 +14,21 @@ body {
 body {
   background-color: #f4f1ee;
 }
+
+/* 本文の読みやすさ */
+.page-content,
+.post-content {
+  line-height: 1.9;
+}
+
+/* 段落の呼吸 */
+.page-content p,
+.post-content p {
+  margin-bottom: 1.4rem;
+}
+
+/* セクション見出し */
+.page-content h2 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
