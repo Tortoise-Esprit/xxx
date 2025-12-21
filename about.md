@@ -31,21 +31,27 @@ permalink: /about/
 
 よろしくお願いします。
 
-Hello,
-I am pleased to announce the launch of my blog. My primary area of expertise is psychiatry, and I currently work in both medical institutions and welfare facilities in regional cities.
-The purpose of Esprit is to serve as a platform for me to share my thoughts on the humanities and philosophy, as well as my observations on psychopathology and my personal reflections.
+<details>
+<summary><strong>English</strong> (click to open)</summary>
+
+<br>
+
+### About this site
+
+This is a personal blog focusing on psychiatry, psychopathology,
+phenomenology, and philosophy of mind.
+
+My primary interest lies in the intersection between clinical practice
+and theoretical reflection.
 
 ### Areas of Expertise and Interest
-Psychiatry and Psychopathology
-Humanities and Poetry (occasionally)
-Cooking and Games (someday)
+- Psychiatry
+- Psychopathology
+- Phenomenology
+- Philosophy of mind
 
-### Why I Started This Blog
-I began this blog to record a certain kind of experience that resists being spoken,
-and to quietly share lines of thought with others who might hold similar interests.
+</details>
 
-### About This Site
 Theme: Jekyll Minima
 Hosted on: GitHub Pages
-
 Feel free to reach out via the [Contact](/contact/)  page.
