@@ -17,16 +17,19 @@ permalink: /privacy/
 
 ご自身の情報の削除や訂正を希望される場合は、同じフォームからご連絡ください。  
 
-最終更新日：{{ site.time | date: "2025年10月26日" }}
+最終更新日：{{ site.time | date: "2025年12月22日" }}
 
-### Privacy Policy
+<details>
+<summary><strong>English</strong> (click to open)</summary>
+<h3>Privacy Policy</h3>
 
-This website, **Esprit**, collects personal information only when visitors voluntarily submit inquiries through the contact form.  
+This website, <strong>Esprit</strong>, collects personal information only when visitors voluntarily submit inquiries through the contact form.  
 The information collected (such as your name and email address) will be used solely for the purpose of responding to your inquiry and will not be shared with third parties without your consent.
 
-This site may use third-party services such as **Formspree** for contact form handling.  
+This site may use third-party services such as <strong>Formspree</strong> for contact form handling.  
 Please note that these services may process your data according to their own privacy policies.
 
 If you wish to have your information deleted or corrected, please contact us through the same form.
 
-_Last updated: {{ site.time | date: "2025-10-26" }}_
+_Last updated: {{ site.time | date: "2025-12-22" }}_
+</details>
