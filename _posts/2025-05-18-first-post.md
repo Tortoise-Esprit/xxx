@@ -23,6 +23,8 @@ date: 2025-05-18
 と思った時に、それは精神病理学のはじまりであり、同じく、あらゆる学問を結集させて立ち向かっていくべきことなのだろうと思います。
 そういうことに興味のある方にとってこのブログは面白いかもしれません。
 
+<details>
+<summary><strong>English</strong> (click to open)</summary>
 This is my first blog post, and I thought I’d try writing a few thoughts on a trial basis.
 
 It was over a decade ago that I first encountered psychopathology. I still remember the shock I felt when I picked up a Japanese translation of Conrad’s Beginning of Schizophrenia at my university library.
@@ -59,3 +61,4 @@ If I were to put my own impression of study into words, I might say this:
 When that question arises, I believe that is the true beginning of psychopathology. And it is at the same time a question that deserves the full resources of every discipline we have.
 
 If you're someone who finds such questions compelling, then perhaps this blog will be of interest to you.
+</details>
