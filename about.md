@@ -4,10 +4,6 @@ title: About me
 permalink: /about/
 ---
 
-<p align="center">
-<img src="/xxx/assets/img/logo2.png" alt="ロゴ画像" width="25%">
-</p>
-
 こんにちは。
 普段は地方都市の医療機関や福祉施設で精神医療に携わっています。
 このブログでは、人文学や哲学について考えたことや精神病理学における考察、日常の省察について淡々と記述する場にしようと思っています。
