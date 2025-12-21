@@ -22,7 +22,7 @@ paginate_path: "/page:num"
 # ナビゲーション設定
 navigation:
   - title: "Home"
-    url: "/"
+    url: "/Home/"
   - title: "About Me"
     url: "/about/"
   - title: "Contact"
