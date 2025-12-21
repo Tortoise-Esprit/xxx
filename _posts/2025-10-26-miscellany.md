@@ -21,7 +21,7 @@ date: 2025-10-26
  
 <details>
 <summary><strong>English</strong> (click to open)</summary>
-Quiet Studies and a Pause
+<h3>Quiet Studies and a Pause</h3>
 
 Since early July this year until last week, I had been quietly studying occupational health. To be precise, I was studying to obtain the qualification of Labor Hygiene Consultant.
 
