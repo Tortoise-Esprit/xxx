@@ -19,8 +19,7 @@ date: 2025-05-31
  
 <details>
 <summary><strong>English</strong> (click to open)</summary>
-A Turning Point 
- 
+<h3> A Turning Point </h3> 
 I’d like to share something personal.
 
 In mid-May, something significant happened—something that finally brought an end to several years of struggle. Yet strangely, I don’t feel entirely at peace.
