@@ -30,9 +30,7 @@ permalink: /about/
 <details>
 <summary><strong>English</strong> (click to open)</summary>
 
-<br>
-
-### About this site
+<h3> About this site </h3>
 
 This is a personal blog focusing on psychiatry, psychopathology,
 phenomenology, and philosophy of mind.
@@ -40,7 +38,7 @@ phenomenology, and philosophy of mind.
 My primary interest lies in the intersection between clinical practice
 and theoretical reflection.
 
-### Areas of Expertise and Interest
+<h3> Areas of Expertise and Interest </h3>
 - Psychiatry
 - Psychopathology
 - Phenomenology
