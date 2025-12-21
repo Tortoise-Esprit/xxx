@@ -23,7 +23,7 @@ permalink: /about/
 
 - 使用テーマ：Jekyll Minima  
 - ホスティング：GitHub Pages  
-- お問い合わせは [Contact](/contact/) ページからお気軽にどうぞ。
+- お問い合わせは [Contact](/xxx/contact/) ページからお気軽にどうぞ。
 
 よろしくお願いします。
 
@@ -50,4 +50,4 @@ and theoretical reflection.
 
 Theme: Jekyll Minima
 Hosted on: GitHub Pages
-Feel free to reach out via the [Contact](/contact/)  page.
+Feel free to reach out via the [Contact](/xxx/contact/)  page.
