@@ -49,7 +49,7 @@ date: 2026-01-06
 この最大の要因は、米国のうつ病に関する診断基準が世界標準化したことに端を発するという。要はDSMのことだ。正確にはDSM-IIIの出された1980年になる。
 DSM-IIIの前はもちろんDSM-I（1952年）やDSM-II（1968年）が存在した。この時はまだ操作的診断というものがなかった時代で、伝統的診断や、精神力動的（精神分析学的）な用語が多用された。重症度や除外基準、期間について定められていなかったが、この時は「抑うつ反応」と「精神病性うつ病」に明確に二分していたことが最も目を引く。
 
-試しにDSM-Iの「うつ病」に相当する原文と意訳を引用してみる。様々な点でいわゆる「うつ病」との一致不一致に気づくだろう。
+試しにDSM-Iの「うつ病」に相当する原文と意訳を引用してみる。様々な点でいわゆる「うつ病」との一致不一致に気づくだろう。読者の皆さんは読み飛ばしていただいて全く問題ない。
 
 **Depression Reaction**
 >Depressive reaction The anxiety in this reaction is allayed, and hence partially relieved, by depression and self-depreciation. The reaction is precipitated by a current situation, frequently by some loss sustained by the patient, and is often associated with a feeling of guilt for past failures or deeds.
