@@ -2,6 +2,8 @@
 layout: post
 title: "ファントム空間論"
 date: 2025-06-01
+excerpt: "安永浩の理論に心を打たれ、その再発見を願う備忘録。"
+description: "Overwhelmed by Yasunaga’s profound theory, I recorded these notes. A small wish to rediscover the "Geometry of the Mind" in clinical work."
 ---
 
 >　かつてスイス特許局の一技師（であったアインシュタイン）が物理学の矛盾から出発して物理的宇宙の枠組みを発見したように、東大分院神経科の一助教授（であった安永）が若干の臨床的事実から出発して精神の精神の宇宙の本質的な枠組みを発見していたということも大いにありうる。この国はいつも「手暗がり」「灯台もと暗し」なのだ。
