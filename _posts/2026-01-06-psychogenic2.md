@@ -2,6 +2,8 @@
 layout: post
 title: "体験反応を巡って　（II）"
 date: 2026-01-06
+excerpt: "うつ病診断への「体験反応」の混入と、DSM-III以降の診断基準の変遷を辿る。"
+description: "Exploring the shift in depression diagnosis since DSM-III. A quiet attempt to organize my thoughts on today’s blurred clinical contexts."
 ---
 体験反応をめぐって　＜II＞
 
