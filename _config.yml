@@ -4,7 +4,7 @@ theme: minima
 # サイト情報
 title: Esprit
 description: This blog explores topics in the humanities, history, philosophy, and psychopathology, while also delving into matters entirely unrelated.
-
+google_analytics: G-1PM8IT3QWK
 # サイトURL設定（ここが重要）
 url: "https://tortoise-esprit.com"  # 新リポジトリに合わせる
 baseurl: ""                               # ← ここを空にしておく（xxx削除）
