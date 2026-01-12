@@ -3,7 +3,7 @@ layout: post
 title: "私なりの精神病理学"
 date: 2025-05-18
 excerpt: "私が精神医学を志すきっかけについて。"
-description: "「なぜ人はこう考えるのか」という素朴な問いを大切にしています。わからないからこそ惹かれる。"
+description: "Still lost in the forest of philosophy, I continue to ask a simple yet deep question: "Why does this person think this way?""
 ---
 
 　これは初めてのブログ投稿ですが、試験的に少し書いてみようと思います。
