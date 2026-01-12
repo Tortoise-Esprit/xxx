@@ -2,6 +2,8 @@
 layout: post
 title: "雑感"
 date: 2025-10-26
+excerpt: "自分の非力さを改めて思い知った日記。"
+description: "A diary of a failed exam and the bitterness of my own inadequacy. Taking a quiet pause to return to the books and thinkers I love most."
 ---
 
 　今年の7月上旬から先週にかけて産業保健に関する勉強をこっそりしていた。はっきり言うと「労働衛生コンサルタント」という資格を取るための勉強をしていた。
