@@ -2,6 +2,8 @@
 layout: post
 title: "ゲーム小話"
 date: 2025-12-30
+excerpt: "移ろいやすい情報の波から離れ、ミアレシティを自分の歩幅で楽しんだ記録。"
+description: "A fan’s quiet appreciation for slow discovery and coexistence with Pokémon in an age of instant, overwhelming information."
 ---
 
 今回は私の好きなゲームの話をさせていただきたい。
