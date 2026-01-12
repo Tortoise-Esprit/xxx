@@ -2,6 +2,8 @@
 layout: post
 title: "私が考えていること"
 date: 2025-05-31
+excerpt: "精神科医としての独立性を証明する転換点について。重い責任への緊張感と、自身の関心領域である精神病理学をいかに臨床に統合していくか省察。"
+description: "Reflecting on the heavy legal authority I received. I feel the weight of responsibility and hope for humble growth as an independent clinician."
 ---
 
 　個人的な話をしたい。今年の5月中旬におきた大きな出来事を経て、ようやくここ数年の苦闘に終止符を打つことができた。ただ内心すごく安堵できているかと思えば決してそうではない心境にある。
