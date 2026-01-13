@@ -47,7 +47,7 @@ Eventually I arrived at French contemporary thought, but in the end, it was alwa
 I spend much of my time reading and thinking about clinical work.
 Psychopathology, I believe, cannot be discussed without philosophy and the humanities. Philosophy isn’t just a supplement—it is a method that shapes the field itself.
 
-**Why are philosophy and contemporary thought necessary for understanding psychopathology?**
+<strong>Why are philosophy and contemporary thought necessary for understanding psychopathology?</strong>
 
 It’s very difficult to give a clear answer to that.
 But when we ask: What counts as illness? What is normal? What does it mean to be normal?—it is philosophy that helps us think through such questions.
@@ -60,7 +60,7 @@ Understanding psychoanalysis is also essential. Many psychopathologists seem to 
 
 If I were to put my own impression of study into words, I might say this:
 
-*“Why does this person think this way?”*
+<em>“Why does this person think this way?”</em>
 
 When that question arises, I believe that is the true beginning of psychopathology. And it is at the same time a question that deserves the full resources of every discipline we have.
 
