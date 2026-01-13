@@ -84,7 +84,7 @@ description: "特養の現場で、自分の非力さを突きつけられる日
 
 <details>
 <summary><strong>English</strong> (click to open)</summary>
-<pre>
+ <div style="white-space: pre-wrap;">
 I make house calls to a special nursing home twice a month as a contract physician. Today I want to talk about that work.
 
 If I put it in stiff, official language, what I do is provide therapeutic guidance regarding the psychiatric problems of residents. Put more simply: I’m asked to weigh in on residents’ mental and behavioral symptoms—especially the behavioural and psychological symptoms of dementia (BPSD)—by proposing medication strategies, suggesting environmental adjustments, and offering ways of relating to them along the lines of, “How about trying this?”
@@ -160,5 +160,5 @@ At the time I interpreted it, on my own, as a message like: *Don’t do anything
 In weather forecasting, I’ve never seen anyone say, “We hit it perfectly,” or “We’re sorry we were wrong,” in the way you see in other fields. Weather shifts matter for logistics, events, defense, agriculture—virtually everyone. And yet we don’t usually ride an emotional roller coaster over whether the forecast was right or wrong, nor do we cast votes of approval or disapproval. You could argue that weather and the mind are entirely different. But I think they resemble each other in one crucial point: both deal with chaos, and both involve forecasting the future. Just as a butterfly’s wings might set off a storm, a resident’s sigh might trigger a night of upheaval.
 
 So even as I reflect—without indulging too much in either triumph or despair—I want to keep training my clinical skills: to look ahead, calmly, at the next two weeks.
-</pre>
+</div>
 </details>
