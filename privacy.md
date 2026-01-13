@@ -37,6 +37,7 @@ permalink: /privacy/
 
 <details>
 <summary><strong>English</strong> (click to open)</summary>
+<div style="white-space: pre-wrap;">
 <h3>Privacy Policy</h3>
 
 This website, <strong>Esprit</strong>, collects personal information only when visitors voluntarily submit inquiries through the contact form.  
@@ -64,4 +65,5 @@ You can refuse data collection by disabling cookies in your browser settings. Fo
 The collected information is used to improve the content of this site and enhance user experience.
 
 _Last updated: {{ site.time | date: "2026-01-12" }}_
+</div>
 </details>
