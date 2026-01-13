@@ -21,6 +21,7 @@ description: "Reflecting on the heavy legal authority I received. I feel the wei
  
 <details>
 <summary><strong>English</strong> (click to open)</summary>
+<div style="white-space: pre-wrap; margin-top: 1em;">
 <h3> A Turning Point </h3> 
 I’d like to share something personal.
 
@@ -49,4 +50,5 @@ That’s why I’ve decided to return to workshops and academic meetings I’ve 
 Looking further ahead, I’m starting to think seriously about what I want to accomplish in the remaining 30 or 40 years of my professional life.
 What direction should I take? What’s worth devoting myself to?
 Ideally, I’d like to find a way to integrate what I’ve always cared about—psychopathology and philosophy—into the heart of clinical practice.
+</div>
 </details>
