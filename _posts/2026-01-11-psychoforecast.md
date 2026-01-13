@@ -89,8 +89,7 @@ I make house calls to a special nursing home twice a month as a contract physici
 
 If I put it in stiff, official language, what I do is provide therapeutic guidance regarding the psychiatric problems of residents. Put more simply: I’m asked to weigh in on residents’ mental and behavioral symptoms—especially the behavioural and psychological symptoms of dementia (BPSD)—by proposing medication strategies, suggesting environmental adjustments, and offering ways of relating to them along the lines of, “How about trying this?”
 
-<br>In other words, it’s not some exotic side hustle. It’s closer to an extension of everyday clinical practice.
-
+In other words, it’s not some exotic side hustle. It’s closer to an extension of everyday clinical practice.
 And yet, I feel more keenly with each visit that this is a genuinely difficult job. It’s not the kind of “easy gig” you can do casually. I’ve never once thought I was taking it lightly, nor have I ever felt it was easy. I’d put it in the category of work I cannot recommend doing with a part-time-job mindset. For me, there’s quite a strong sense that I’m going there to train—like a kind of apprenticeship in clinical psychiatry.
 
 What kind of training?
@@ -102,12 +101,10 @@ Before I go on, let me say a word about what a “special nursing home” is. It
 In principle, residents are those certified as needing long-term care at level 3 to level 5. Because there’s no fixed time limit, these homes are often assumed to be a final residence—what people call an “end-of-life home,” bluntly speaking.
 
 Within that setting, I’m essentially a piece on the board used to meet the requirements for a billing item called the “Regular Psychiatric Medical Guidance Add-On.” In that role, I’m expected to do things like:
-
 * provide regular guidance by a physician responsible for psychiatry at least twice a month, and
 * keep records documenting the guidance given to residents.
 
 The facility earns, by having me function as that “piece,” a rather stingy reimbursement: 5 units per resident per day. One unit is roughly about 10 yen, so it’s about 1,500 yen per resident per month. Even if you assume around 100 residents, not everyone has BPSD—obviously. The system is structured so that it never becomes a money-maker. Seeing residents three or four times in a month doesn’t increase the add-on. If anything, it increases what the facility pays the physician and tips the whole thing into the red. They want you to come twice, but they’d rather you not come more than that. The relationship becomes oddly like “more than friends, less than lovers.”
-
 The facility’s monthly take from this add-on is a few tens of thousands of yen at most—probably gone instantly into miscellaneous expenses. It’s a relatively new add-on, introduced in the 2015 long-term care reimbursement revision, so it didn’t exist about ten years ago. It’s the kind of thing that’s “nice to have rather than nothing.” And given the current trend lines, I doubt this fee will ever rise. A tokuyō is not meant to be a place that practices specialized medicine; perhaps a psychiatrist isn’t supposed to stand out too much.
 
 But on the care floor, when residents’ psychiatric symptoms flare, the staff are in real trouble. In that sense, it would be better if there were a psychiatrist. What you get, then, is a kind of seesaw game between the realities of the field and the constraints of the system: “If a psychiatrist is involved just a little, you get a small bonus.” Psychiatric involvement is designed to remain symbolic. And because the revenue is truly minimal, from a management point of view the position is almost indifferent—nice if it exists, fine if it doesn’t. It’s not mandated. Many facilities simply don’t staff a psychiatrist at all. There is need, but the reimbursement doesn’t reflect it. That’s the grim arithmetic.
@@ -115,46 +112,34 @@ But on the care floor, when residents’ psychiatric symptoms flare, the staff a
 Seen that way, it’s easy to understand why occupational physician gigs—where certain workplaces are legally required to appoint one—are vastly more popular. To be frank, the unit price is better. I’m doing something that doesn’t translate into monetary profit.
 
 Now, once I actually step into the field—maybe it’s just my workplace, I can’t be sure—I find myself thinking again and again: *How on earth are there so many difficult cases living here?* It’s genuinely hard.
-
-Most residents carry some diagnosis of dementia. Their comorbidities are more or less known. They’re already taking some kind of medication. Non-psychiatric drugs are handled by the internist attached to the facility. Their background is also more or less known—but often in fragments. Not everyone comes with a complete medical referral letter. Many records are written in the idiom of welfare rather than medicine, and lab work is usually outdated. Imaging data? Forget it. There often isn’t any.
-
+Most residents carry some diagnosis of dementia. Their comorbidities are more or less known. They’re already taking some kind of medication. Non-psychiatric drugs are handled by the internist attached to the facility. Their background is also more or less known—but often in fragments. Not everyone comes with a complete medical referral letter. Many records are written in the idiom of welfare rather than medicine, and lab 
+work is usually outdated. Imaging data? Forget it. There often isn’t any.
 
 In the short time of a visit, I have to stitch together partial information and assemble a whole picture of the person. And I have to solve the immediate problem in front of me (or more precisely, the problem in front of the caregivers) without going through the full ritual of a psychiatric first visit.
 
-
 The problems are things like these: getting into fights with other residents, being unable to sit still and roaming around in a wheelchair, trying to escape the facility, pinching, biting, shouting, reversing day and night, incontinence, undressing, breaking things, refusing care, and so on. Less often, there are hallucinations or delusions; sometimes there are behavioral disruptions driven by mood symptoms. But as you can see, most of it is BPSD.
-
 
 For these symptoms, medication is often used. And almost without exception, there are elderly-specific cautions. When you approach BPSD, you have to watch for falls and over-sedation. You have to mind constipation. You have to keep medication-induced delirium in view. The situation I fear most is: I intervene with medication, the resident becomes over-sedated, and then falls. Which is why “let’s start with a high-potency dose” is basically never an opening move.
 
-
 In practice, I often use small amounts of risperidone or quetiapine. Sometimes I use lemborexant. Sometimes I introduce memantine. Recently I’ve found myself using brexpiprazole more often. Dosage and technique are inevitably influenced by each physician’s judgment and preferences, but I suspect the rough shape of things doesn’t differ much across doctors. I’m probably not the type who uses trazodone that much.
-
-
 Even so, no matter how cautious I am, over-sedation can still happen. Or two weeks later a caregiver will say, “It’s not working at all.” Both outcomes are painful—pretty close to what you might call the bitterest kind of regret. I have to live with the readiness to hear either report. I have to acknowledge my own helplessness. I’m profoundly underpowered. Meanwhile, the staff endured two weeks of “nothing getting better” until I returned. I can only reflect and try to do better next time.
 
 Sometimes things go remarkably well. Sometimes my prediction lands squarely. In those moments I’m thanked, and I feel good.
-
 But what matters—truly—is that I’m not practicing psychiatry in order to be thanked. In that sense, I feel the same as that fictional manga artist Rohan Kishibe when he insists he doesn’t work for money or applause. When things go well, I try to remember carefully *why* they went well.
-
 Psychiatry stands on relative foundations. Psychiatric disorders are built from concepts and their typologies, and if there’s no specific biomarker, then accumulation of cases—experience, pattern recognition, disciplined memory—becomes meaningful.
 
 In house calls, the hardest thing, in the end, is predicting what the resident will look like at the next visit. It’s truly difficult. For example, how much psychotropic medication you can use in someone over 100—honestly, I don’t know. In an environment where there are many people over 90, your posture naturally straightens. You have to think: if I give risperidone 1 mg daily, what will they look like in two weeks? If I try quetiapine 12.5 mg, how will the course unfold? For this resident, maybe 25 mg could work; maybe risperidone is better; and so on. You make a decision while keeping pharmacologic properties in mind. When I want to titrate something like memantine or brexpiprazole from an initial dose toward maintenance, I make a point of telling the team in advance what the ceiling of the initial dose is and what kind of pace to expect.
-
 Occasionally I’ll try a small dose of tiapride for psychiatric symptoms after cerebral embolism. For delirium I might use perospirone; if I need faster symptom control and diabetes is in the picture, I might choose asenapine. If there’s a history of depression and the person is in a melancholic state, I might use escitalopram. If there’s a diagnosis of schizophrenia and there’s severe agitation and insomnia, I might use a very small amount of olanzapine—rarely, but it happens.
 
 Part of me wonders whether this is “too much” for a tokuyō contract psychiatrist. I do understand that in this field, medicine is not the main act. I have some worry about how things are done elsewhere. But if I’m doing it, it’s because I think it’s necessary. Residents often arrive from psychiatric hospitals, which means someone has to translate what to watch for into language the staff can actually use. Someone has to explain why it may be necessary, for the time being, to continue the resident’s brought-in medication. A prescription that looks bizarre on first glance can be, for that person, the best possible combination. Even if an internist hints indirectly that it looks like polypharmacy, you need the nerve to withstand that pressure and the logic to explain the medical necessity. I’ve been doing this contract work for nearly three years, and I still have never once run into the internist in person. And I must not say things like, “Well, you’re polypharmacy too,” even if the thought flashes through my mind. Precisely because we don’t meet face to face, I think respect for the other is required.
 
 If I tell this story, maybe it becomes clear that I’m not merely someone who spends his days talking about psychopathology.
-
 In this place there is no “phantom space,” no “aida,” no *La forclusion du Nom-du-Père*, no *Verlust der natürlichen Selbstverständlichkeit*. What exists here is relentlessly muddy clinical practice. In the few seconds I exchange words with a resident, I’m trying to read their current state and decide what takes priority. My mind is spinning at 11,000 rpm—what medication, what information, what risk, what sequence.
 
 There is one more important thing to add. In welfare facilities, something that’s common in psychiatric hospitals is simply forbidden. I mean behavioral restrictions. Physical restraints, seclusion—those things do not exist here. This is not the Mental Health and Welfare Act. Even things like using mittens because an IV is running, or fastening a belt to prevent someone from standing up from a wheelchair—those are essentially not options. Dressing someone in “care clothing,” like a romper, to prevent undressing? No. Rejected across the board. It’s a completely different culture. There are no behavioral restrictions. What you can do is pharmacotherapy, and that’s basically it. No psychotherapy either. With so few cards in your hand, you’re asked to produce the best possible outcome—namely, that the resident can pass the day in relative peace.
 
 I still remember what the facility director told me during the interview:
-
 “More than anything, I think what matters is whether our residents can spend their time calmly.”
-
 At the time I interpreted it, on my own, as a message like: *Don’t do anything unnecessary.* But “nothing happens and the day passes peacefully” is, for people approaching the final stretch of life—and for those who support them—an immensely important thing, every single day.
 
 In weather forecasting, I’ve never seen anyone say, “We hit it perfectly,” or “We’re sorry we were wrong,” in the way you see in other fields. Weather shifts matter for logistics, events, defense, agriculture—virtually everyone. And yet we don’t usually ride an emotional roller coaster over whether the forecast was right or wrong, nor do we cast votes of approval or disapproval. You could argue that weather and the mind are entirely different. But I think they resemble each other in one crucial point: both deal with chaos, and both involve forecasting the future. Just as a butterfly’s wings might set off a storm, a resident’s sigh might trigger a night of upheaval.
