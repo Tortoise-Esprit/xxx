@@ -48,20 +48,20 @@ Please note that these services may process your data according to their own pri
 
 If you wish to have your information deleted or corrected, please contact us through the same form.
 
-## About Access Analysis Tools
+<h3> About Access Analysis Tools</h3>
 
 This website uses Google Analytics, an access analysis tool provided by Google. Google Analytics uses cookies to collect data. This data is collected anonymously and does not identify individuals.
 
 You can refuse data collection by disabling cookies in your browser settings. For more details about these terms, please refer to the [Google Analytics Terms of Service](https://marketingplatform.google.com/about/analytics/terms/us/) and [Google's Privacy & Terms](https://policies.google.com/technologies/ads).
 
-### Information Collected
+<h3> Information Collected</h3>
 - Visitor IP addresses (anonymized)
 - URLs of pages viewed
 - Date and time of visits
 - Browser and device information
 - Behavioral patterns within the site
 
-### Purpose of Use
+<h3> Purpose of Use</h3>
 The collected information is used to improve the content of this site and enhance user experience.
 
 _Last updated: {{ site.time | date: "2026-01-12" }}_
