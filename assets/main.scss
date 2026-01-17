@@ -47,7 +47,7 @@ body {
 /* OSのダークモードに自動追従 */
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #111;
+    background-color: #111 !important;
     color: #e6e6e6;
   }
 
