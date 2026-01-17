@@ -129,4 +129,13 @@ body {
   .site-nav .trigger a:hover {
     color: #ffffff !important;
   }
+   /* ハンバーガー（三本線）をはっきりさせる */
+  .site-nav .menu-icon svg path {
+    stroke: #e6e6e6;
+  }
+
+  /* 押したとき・ホバー時に少しだけ強く */
+  .site-nav .menu-icon:hover svg path {
+    stroke: #ffffff;
+  }
 }
