@@ -94,3 +94,22 @@ body {
     border-color: #333;
   }
 }
+@media (prefers-color-scheme: dark) {
+  /* ヘッダーの文字色（タイトル＋右上ナビ） */
+  .site-title,
+  .site-title:visited,
+  .site-nav .page-link,
+  .site-nav .page-link:visited {
+    color: #e6e6e6 !important;
+  }
+
+  .site-nav .page-link:hover {
+    color: #ffffff !important;
+    text-decoration: underline;
+  }
+
+  /* ハンバーガー（スマホ用）も見えるように */
+  .site-nav .menu-icon svg path {
+    fill: #e6e6e6 !important;
+  }
+}
