@@ -113,3 +113,20 @@ body {
     fill: #e6e6e6 !important;
   }
 }
+@media (prefers-color-scheme: dark) {
+  /* スマホのドロップダウン（白い箱）をダークに */
+  .site-nav .trigger {
+    background-color: #0d0d0d !important;
+    border: 1px solid #222 !important;
+  }
+
+  /* スマホメニュー内リンク文字 */
+  .site-nav .trigger a,
+  .site-nav .trigger a:visited {
+    color: #e6e6e6 !important;
+  }
+
+  .site-nav .trigger a:hover {
+    color: #ffffff !important;
+  }
+}
