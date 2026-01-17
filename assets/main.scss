@@ -44,3 +44,53 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+/* OSのダークモードに自動追従 */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #111;
+    color: #e6e6e6;
+  }
+
+  a {
+    color: #9ecbff;
+  }
+  a:visited {
+    color: #c2a8ff;
+  }
+  a:hover {
+    color: #cfe8ff;
+  }
+
+  /* ヘッダー/フッター（minimaのクラスに合わせて広めに指定） */
+  .site-header,
+  .site-footer,
+  header,
+  footer {
+    background-color: #0d0d0d;
+    border-color: #222;
+  }
+
+  /* 記事本文まわり */
+  .page-content,
+  .post-content {
+    color: #e6e6e6;
+  }
+
+  /* 引用 */
+  blockquote {
+    color: #cfcfcf;
+    border-left-color: #444;
+  }
+
+  /* コード */
+  pre,
+  code,
+  .highlight {
+    background-color: #1e1e1e;
+  }
+
+  /* 罫線 */
+  hr {
+    border-color: #333;
+  }
+}
