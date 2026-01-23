@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "序"
+title: "レチタティーヴォ"
 date: 2026-01-24
 published: false
 excerpt: ""
 description: ""
 ---
+
