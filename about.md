@@ -50,4 +50,4 @@ and theoretical reflection.
 
 Theme: Jekyll Minima
 Hosted on: GitHub Pages
-Feel free to reach out via the [Contact](/xxx/contact/)  page.
+Feel free to reach out via the [Contact](https://tortoise-esprit.com/contact/)  page.
