@@ -25,7 +25,7 @@ permalink: /about/
 
 - 使用テーマ：Jekyll Minima  
 - ホスティング：GitHub Pages  
-- お問い合わせは [Contact](/xxx/contact/) ページからお気軽にどうぞ。
+- お問い合わせは [Contact](/contact/) ページからお気軽にどうぞ。
 
 よろしくお願いします。
 
