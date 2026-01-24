@@ -25,7 +25,7 @@ permalink: /about/
 
 - 使用テーマ：Jekyll Minima  
 - ホスティング：GitHub Pages  
-- お問い合わせは [Contact](https://tortoise-esprit.com/contact/) ページからお気軽にどうぞ。
+- お問い合わせ（講演・執筆・その他のご相談）は [Contact](https://tortoise-esprit.com/contact/) ページからお気軽にどうぞ。
 
 よろしくお願いします。
 
