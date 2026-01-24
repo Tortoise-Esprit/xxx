@@ -26,7 +26,8 @@ permalink: /about/
 - 使用テーマ：Jekyll Minima  
 - ホスティング：GitHub Pages  
 - お問い合わせ（講演・執筆・その他のご相談）は [Contact](https://tortoise-esprit.com/contact/) ページからお気軽にどうぞ。
-
+- ※医療相談・診療に関するお問い合わせには対応できません。
+- 
 よろしくお願いします。
 
 <details>
@@ -51,3 +52,7 @@ and theoretical reflection.
 Theme: Jekyll Minima
 Hosted on: GitHub Pages
 Feel free to reach out via the [Contact](https://tortoise-esprit.com/contact/)  page.
+For inquiries regarding lectures, writing, or other professional matters,
+please use the contact form above.
+
+Please note that I am unable to respond to inquiries related to medical consultations or clinical care.
