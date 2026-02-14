@@ -68,9 +68,34 @@ def bsky_create_session(handle: str, app_password: str):
     return data["accessJwt"], data["did"]
 
 
-def bsky_post(access_jwt: str, did: str, text: str):
+def bsky_post(access_jwt: str, did: str, text: str, url: str):
     now = dt.datetime.now(dt.timezone.utc).isoformat().replace("+00:00", "Z")
-    record = {"$type": "app.bsky.feed.post", "text": text, "createdAt": now}
+
+    # URLの位置（文字インデックス）
+    start_char = text.index(url)
+    end_char = start_char + len(url)
+
+    # facetsは「UTF-8バイト数」で指定する必要があるため、バイト位置に変換
+    byte_start = len(text[:start_char].encode("utf-8"))
+    byte_end = len(text[:end_char].encode("utf-8"))
+
+    facets = [
+        {
+            "$type": "app.bsky.richtext.facet",
+            "index": {"byteStart": byte_start, "byteEnd": byte_end},
+            "features": [
+                {"$type": "app.bsky.richtext.facet#link", "uri": url}
+            ],
+        }
+    ]
+
+    record = {
+        "$type": "app.bsky.feed.post",
+        "text": text,
+        "facets": facets,
+        "createdAt": now,
+    }
+
     payload = json.dumps(
         {"repo": did, "collection": "app.bsky.feed.post", "record": record}
     ).encode("utf-8")
@@ -85,6 +110,7 @@ def bsky_post(access_jwt: str, did: str, text: str):
         method="POST",
     )
     fetch_req(req)
+
 
 
 def main():
