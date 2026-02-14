@@ -9,6 +9,7 @@ google_analytics: G-EPMW3T3Q0K
 # サイトURL設定（ここが重要）
 url: "https://tortoise-esprit.com"  # 新リポジトリに合わせる
 baseurl: ""                               # ← ここを空にしておく（xxx削除）
+image: "/assets/ogp/ogp-default.png"　# OGP画像
 
 # タイムゾーン設定（再発防止）
 timezone: Asia/Tokyo
