@@ -7,6 +7,12 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/newlogo-apple-touch-icon.png">
 
   {%- seo -%}
+
+  <!-- Force OGP image -->
+  <meta property="og:image" content="{{ '/assets/ogp/ogp-default.png' | absolute_url }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="{{ '/assets/ogp/ogp-default.png' | absolute_url }}">
+
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
   {%- feed_meta -%}
 
@@ -14,3 +20,4 @@
     {%- include google-analytics.html -%}
   {%- endif -%}
 </head>
+
