@@ -126,7 +126,7 @@ def main():
 
     text = f"新記事：{title}\n{url}"
     access_jwt, did = bsky_create_session(BSKY_HANDLE, BSKY_APP_PASSWORD)
-    bsky_post(access_jwt, did, text)
+    bsky_post(access_jwt, did, text, url)   # ← url を渡す
 
     state["last_url"] = url
     save_state(state)
