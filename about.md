@@ -56,3 +56,5 @@ For inquiries regarding lectures, writing, or other professional matters,
 please use the contact form above.
 
 Please note that I am unable to respond to inquiries related to medical consultations or clinical care.
+
+<a rel="me" href="https://bookstodon.com/@esprit">Mastodon</a>
