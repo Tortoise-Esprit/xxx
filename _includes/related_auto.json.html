@@ -68,7 +68,7 @@
   const box = document.getElementById("related-posts");
   box.innerHTML = `
     <hr>
-    <h2>Next to read</h2>
+    <h2>Related posts</h2>
     <ul>
       ${scored.map(p => `<li><a href="${p.url}">${escapeHtml(p.title)}</a></li>`).join("")}
     </ul>
