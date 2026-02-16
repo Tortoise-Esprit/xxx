@@ -1,0 +1,77 @@
+<div id="related-posts" style="margin-top: 2em;"></div>
+
+<script>
+(async function () {
+  // 現在記事の情報（Jekyllが埋め込む）
+  const currentUrl = {{ page.url | relative_url | jsonify }};
+  const currentTitle = {{ page.title | jsonify }};
+  const currentExcerpt = {{ page.excerpt | default: "" | strip_html | strip_newlines | jsonify }};
+  const currentText = (currentTitle + " " + currentExcerpt).trim();
+
+  if (!currentText) return;
+
+  // 文字n-gram（日本語でも動く）
+  function normalize(s) {
+    return (s || "")
+      .toLowerCase()
+      .replace(/\s+/g, " ")
+      .replace(/[!"#$%&'()*+,\-.\/:;<=>?@[\\\]^_`{|}~]/g, ""); // 記号を軽く除去
+  }
+
+  function ngrams(s, n=3) {
+    s = normalize(s);
+    const set = new Set();
+    if (s.length < n) return set;
+    for (let i = 0; i <= s.length - n; i++) {
+      set.add(s.slice(i, i + n));
+    }
+    return set;
+  }
+
+  function jaccard(a, b) {
+    if (!a.size || !b.size) return 0;
+    let inter = 0;
+    for (const x of a) if (b.has(x)) inter++;
+    const union = a.size + b.size - inter;
+    return union ? inter / union : 0;
+  }
+
+  const curSet = ngrams(currentText, 3);
+
+  let posts;
+  try {
+    const res = await fetch({{ "/posts.json" | relative_url | jsonify }}, { cache: "no-store" });
+    posts = await res.json();
+  } catch (e) {
+    return; // 取得できなければ何も出さない
+  }
+
+  const scored = posts
+    .filter(p => p.url && p.url !== currentUrl)
+    .map(p => {
+      const text = (p.title || "") + " " + (p.excerpt || "");
+      const score = jaccard(curSet, ngrams(text, 3));
+      return { ...p, score };
+    })
+    .filter(p => p.score > 0)
+    .sort((a, b) => (b.score - a.score) || (b.date || "").localeCompare(a.date || ""))
+    .slice(0, 4);
+
+  if (!scored.length) return;
+
+  const box = document.getElementById("related-posts");
+  box.innerHTML = `
+    <hr>
+    <h2>Next to read</h2>
+    <ul>
+      ${scored.map(p => `<li><a href="${p.url}">${escapeHtml(p.title)}</a></li>`).join("")}
+    </ul>
+  `;
+
+  function escapeHtml(str) {
+    return (str || "").replace(/[&<>"']/g, s => ({
+      "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
+    }[s]));
+  }
+})();
+</script>
