@@ -160,3 +160,13 @@ body {
     stroke: #ffffff;
   }
 }
+/* ギリシア語の引き伸ばし防止 */
+.greek,
+:lang(el),
+:lang(grc) {
+  display: inline-block;
+  white-space: nowrap;
+  letter-spacing: 0 !important;
+  word-spacing: 0 !important;
+  font-kerning: normal;
+}
