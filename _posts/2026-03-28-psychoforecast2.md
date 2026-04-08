@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "気「症」予報　II"
+title: "気「症」予報　(II)"
 date: 2026-03-28
 excerpt: "精神症状の予測の難しさを、より緊張感の伴う場面を通して綴る。"
 description: ""
