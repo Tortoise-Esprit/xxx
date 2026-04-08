@@ -159,6 +159,7 @@ body {
   .site-nav .menu-icon:hover svg path {
     stroke: #ffffff;
   }
+  }
 /* ギリシア語の引き伸ばし防止 */
 .post-content .greek,
 .post-content :lang(el),
@@ -172,4 +173,4 @@ body {
   word-spacing: 0 !important;
   font-kerning: normal;
   font-family: "Palatino Linotype", "Times New Roman", Georgia, serif;
-}
+  }
