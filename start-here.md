@@ -14,14 +14,16 @@ At **Esprit**, I explore the structure and transformation of psychic experience 
 The themes addressed here range from relatively familiar phenomena such as hallucinations, delusions, and mood, to disease categories that are less frequently discussed today, the problem of paranoia, phantom space theory, and the intellectual histories surrounding them.  
 This site is concerned not only with diagnosis or the organization of knowledge, but also with questions such as **how these experiences are constituted** and **what we call normal and what we call abnormal**.
 
-## まず読むなら
-## Where to begin
+## まず読むなら Where to begin
 
-### 1. 問題意識を知りたい方へ For those who want to see the central problematic
+### 1. 問題意識を知りたい方へ 
+For those who want to see the central problematic
 - [パターン＜序＞](/2026/01/23/overture.html)
 
-### 2. 概念の整理から入りたい方へ For those who prefer to begin with conceptual clarification
+### 2. 概念の整理から入りたい方へ 
+For those who prefer to begin with conceptual clarification
 - [体験反応を巡って (I)](/2025/12/17/psychogenic1.html)
 
-### 3. 少しやわらかい文章から入りたい方へ For those who would like to begin with something a little lighter
+### 3. 少しやわらかい文章から入りたい方へ 
+For those who would like to begin with something a little lighter
 - [山岡家セラピー](/2026/03/08/yamaokaya.html)
