@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "はじめての方へ"
+title: "Start Here"
 permalink: /start-here/
 ---
 
