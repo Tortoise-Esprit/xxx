@@ -20,7 +20,3 @@ paginate: 10
 paginate_path: "/page:num"
 
 image: "/assets/ogp/ogp-default.png"
-
-header_pages:
-  - about.md
-  - start-here.md
