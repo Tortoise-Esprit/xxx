@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ファントム空間論"
+title: "憧れ"
 date: 2025-06-01
 excerpt: "安永浩の理論に心を打たれ、その再発見を願う備忘録。"
 description: "Overwhelmed by Yasunaga’s profound theory, I recorded these notes. A small wish to rediscover the \"Geometry of the Mind\" in clinical work."
