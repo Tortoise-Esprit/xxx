@@ -1,10 +1,9 @@
 ---
 layout: post
 title: "パラノイア問題 (II)"
-date: 2026-04-15
-published: false
+date: 2026-04-22
 excerpt: "パラノイアとは何か。"
-description: ""
+description: "パラノイアにおける妄想は、人格発展として理解できるのだろうか。ヴァーグナー症例とガウプの鑑定を通して、なお残る違和感を見つめる。"
 ---
 ## まずは妄想
 
