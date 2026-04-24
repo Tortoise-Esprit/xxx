@@ -243,3 +243,24 @@ body {
   text-decoration: none;
   opacity: 0.85;
 }
+/* ==============================
+   Esprit header adjustment
+============================== */
+
+.site-header .wrapper {
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.site-title {
+  min-width: 0;
+  max-width: 520px;
+}
+
+.site-title::after {
+  white-space: normal;
+}
+
+.site-nav {
+  flex-shrink: 0;
+}
