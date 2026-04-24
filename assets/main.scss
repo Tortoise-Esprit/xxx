@@ -264,3 +264,71 @@ body {
 .site-nav {
   flex-shrink: 0;
 }
+/* ==============================
+   Esprit post hero watermark trial
+   記事ページ上部の透かし紋章
+============================== */
+
+.post-header {
+  position: relative;
+  padding: 3.2rem 0 2.4rem;
+  margin-bottom: 2.4rem;
+  overflow: hidden;
+}
+
+.post-header::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 2rem;
+  width: 300px;
+  height: 300px;
+
+  background-image: url("/assets/img/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  filter: invert(1);
+  opacity: 0.04;
+  transform: translateY(-50%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.post-title,
+.post-meta {
+  position: relative;
+  z-index: 1;
+}
+
+.post-title {
+  font-family: "Gill Sans", "Gill Sans MT", "Yu Gothic", sans-serif;
+  font-size: clamp(2rem, 5vw, 3.4rem);
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  margin-bottom: 1rem;
+}
+
+.post-meta {
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  color: #8f8f8f;
+}
+
+@media screen and (max-width: 600px) {
+  .post-header {
+    padding: 2.4rem 0 1.8rem;
+  }
+
+  .post-header::before {
+    right: -40px;
+    width: 220px;
+    height: 220px;
+    opacity: 0.035;
+  }
+
+  .post-title {
+    font-size: 2rem;
+  }
+}
