@@ -331,3 +331,15 @@ body {
   border: none;
   box-shadow: none;
 }
+/* ==============================
+   Esprit typography correction
+   英文・ナビ・固定ページタイトルを Gill Sans に戻す
+============================== */
+
+.site-title,
+.site-title::after,
+.site-nav,
+.site-nav .page-link,
+.page-title {
+  font-family: "Gill Sans", "Gill Sans MT", "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+}
