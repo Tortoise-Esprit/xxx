@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "私なりの精神病理学"
+title: "原点"
 date: 2025-05-18
 excerpt: "私が精神医学を志すきっかけについて。"
 description: ""
