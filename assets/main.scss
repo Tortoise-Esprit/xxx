@@ -218,6 +218,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+   filter: var(--logo-filter);
 }
 
 .site-title::after {
@@ -284,16 +285,17 @@ body {
   top: 50%;
   right: -1rem;
 
-  width: 360px;
-  height: 360px;
+  width: 380px;
+  height: 380px;
 
-  background-image: url("/assets/images/esprit-crest-full.png");
+  background-image: url("/assets/img/logo.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 
-  filter: invert(1);
-  opacity: 0.025;
+  filter: var(--logo-filter);
+  opacity: var(--watermark--opacity);
+  mix-blend-mode: var(--watermark-blend);
 
   transform: translateY(-50%);
   pointer-events: none;
@@ -342,4 +344,78 @@ body {
 .site-nav .page-link,
 .page-title {
   font-family: "Gill Sans", "Gill Sans MT", "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+}
+/* ==============================
+   Esprit theme tokens
+   ライト / ダークの役割分担
+============================== */
+
+:root {
+  --site-bg: #f4f1ee;
+  --site-text: #1e1e1e;
+  --muted-text: #7c746d;
+  --header-border: #d8d1c9;
+
+  --title-color: #161616;
+  --watermark-opacity: 0.055;
+  --watermark-blend: multiply;
+
+  --logo-filter: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --site-bg: #0b0b0b;
+    --site-text: #f2f2f2;
+    --muted-text: #9a9a9a;
+    --header-border: #3a3a3a;
+
+    --title-color: #f2f2f2;
+    --watermark-opacity: 0.08;
+    --watermark-blend: screen;
+
+    --logo-filter: invert(1) brightness(1.05);
+  }
+}
+/* 全体の背景と文字色 */
+body {
+  background-color: var(--site-bg);
+  color: var(--site-text);
+}
+
+/* ヘッダー */
+.site-header {
+  background-color: var(--site-bg);
+  border-bottom: 1px solid var(--header-border);
+}
+
+.site-title,
+.site-title:visited,
+.site-nav .page-link,
+.page-content h1,
+.page-title {
+  color: var(--site-text);
+}
+
+/* 英文・ナビ・固定ページタイトルは Gill Sans */
+.site-title,
+.site-title::after,
+.site-nav,
+.site-nav .page-link,
+.page-content h1,
+.page-title {
+  font-family: "Gill Sans", "Gill Sans MT", "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+}
+/* 記事タイトルだけ明朝 */
+.post .post-header .post-title {
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Noto Serif JP", serif;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 1.35;
+  color: var(--title-color);
+}
+
+/* 日付 */
+.post-meta {
+  color: var(--muted-text);
 }
