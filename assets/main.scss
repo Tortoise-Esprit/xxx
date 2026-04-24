@@ -181,8 +181,8 @@ body {
 
 .site-header {
   border-top: none;
-  border-bottom: 1px solid #d8d1c9;
-  background: #f4f1ee;
+  border-bottom: 1px solid var(--esprit-border);
+  background: var(--esprit-bg);
 }
 
 .site-header .wrapper {
@@ -210,7 +210,7 @@ body {
 
 .site-title,
 .site-title:visited {
-  color: #171717;
+  color: var(--esprit-text);
 }
 
 .site-title:hover {
@@ -243,7 +243,7 @@ body {
   font-weight: 400;
   letter-spacing: 0.03em;
   line-height: 1.35;
-  color: #6f6a64;
+  color: var(--esprit-muted);
 }
 
 .site-nav {
@@ -252,7 +252,7 @@ body {
 
 .site-nav .page-link {
   font-family: "Gill Sans", "Gill Sans MT", "Avenir Next", "Helvetica Neue", Arial, sans-serif;
-  color: #171717;
+  color: var(--esprit-text);
   font-size: 0.98rem;
   letter-spacing: 0.03em;
 }
@@ -277,4 +277,42 @@ body {
     font-size: 0.68rem;
     max-width: 260px;
   }
+}
+/* ==============================
+   Esprit header light / dark
+============================== */
+
+:root {
+  --esprit-bg: #f4f1ee;
+  --esprit-text: #171717;
+  --esprit-muted: #6f6a64;
+  --esprit-border: #d8d1c9;
+  --esprit-nav-bg: transparent;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --esprit-bg: #0f0f0f;
+    --esprit-text: #f2f2f2;
+    --esprit-muted: #9a9a9a;
+    --esprit-border: #333333;
+    --esprit-nav-bg: transparent;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .site-title::before {
+    filter: invert(1) brightness(1.05);
+  }
+}
+.site-nav {
+  background: transparent;
+  border: none;
+}
+
+.site-nav .trigger {
+  background: transparent;
+}
+
+.site-nav .page-link {
+  background: transparent;
 }
