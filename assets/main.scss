@@ -265,70 +265,69 @@ body {
   flex-shrink: 0;
 }
 /* ==============================
-   Esprit post hero watermark trial
-   記事ページ上部の透かし紋章
+   Esprit post header refined
+   記事ページ上部：明朝タイトル + 溶ける透かし
 ============================== */
 
 .post-header {
   position: relative;
-  padding: 3.2rem 0 2.4rem;
-  margin-bottom: 2.4rem;
-  overflow: hidden;
+  padding: 3.6rem 0 3rem;
+  margin-bottom: 2.8rem;
+  overflow: visible;
+  background: transparent;
 }
 
+/* 透かし */
 .post-header::before {
   content: "";
   position: absolute;
   top: 50%;
-  right: 2rem;
-  width: 300px;
-  height: 300px;
+  right: -1rem;
 
-  background-image: url("/assets/img/logo.png");
+  width: 360px;
+  height: 360px;
+
+  background-image: url("/assets/images/esprit-crest-full.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 
   filter: invert(1);
-  opacity: 0.04;
+  opacity: 0.025;
+
   transform: translateY(-50%);
   pointer-events: none;
   z-index: 0;
 }
 
+/* タイトルと日付を前面へ */
 .post-title,
 .post-meta {
   position: relative;
   z-index: 1;
 }
 
+/* 記事タイトル：明朝寄り */
 .post-title {
-  font-family: "Gill Sans", "Gill Sans MT", "Yu Gothic", sans-serif;
-  font-size: clamp(2rem, 5vw, 3.4rem);
-  line-height: 1.25;
-  letter-spacing: 0.03em;
-  margin-bottom: 1rem;
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Noto Serif JP", serif;
+  font-size: clamp(2.1rem, 5vw, 3.6rem);
+  font-weight: 500;
+  line-height: 1.35;
+  letter-spacing: 0.04em;
+  margin-bottom: 1.2rem;
+  color: #f2f2f2;
 }
 
+/* 日付 */
 .post-meta {
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   letter-spacing: 0.04em;
   color: #8f8f8f;
 }
 
-@media screen and (max-width: 600px) {
-  .post-header {
-    padding: 2.4rem 0 1.8rem;
-  }
-
-  .post-header::before {
-    right: -40px;
-    width: 220px;
-    height: 220px;
-    opacity: 0.035;
-  }
-
-  .post-title {
-    font-size: 2rem;
-  }
+/* 変な箱感が出る場合に備えて明示的に消す */
+.post-header,
+.post-header::after {
+  border: none;
+  box-shadow: none;
 }
