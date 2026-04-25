@@ -1,5 +1,6 @@
 ---
 layout: home
+list_title: Recent Essays
 ---
 
 **はじめてお越しの方へ/New to Esprit?**  
