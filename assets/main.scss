@@ -3,14 +3,35 @@
 
 @import "minima";
 
-// フォントの上書き
+/* ==============================
+   Esprit stylesheet map
+
+   1. Base typography and page rhythm
+   2. Legacy dark-mode support
+   3. Greek / classical text support
+   4. Header logo and navigation
+   5. Esprit color variables
+   6. Home gateway
+   7. Readable quotes
+   8. Case presentation box
+   9. Examination material box
+
+   Note:
+   This file has been kept functionally unchanged in this pass.
+   The comments are here to make future edits safer.
+============================== */
+
+/* ==============================
+   1. Base typography and page rhythm
+============================== */
+
 body {
   font-family:
     "Gill Sans", "Gill Sans MT", "ヒラギノ明朝 ProN", "Hiragino Mincho ProN",
     "游明朝", "Yu Mincho",
     serif;
 }
-/* main.scss の先頭または末尾に追加 */
+
 body {
   background-color: #f4f1ee;
 }
@@ -38,13 +59,18 @@ body {
   padding: 0.6rem 0;
 }
 
-/* 中身を横並び */
+/* 旧ヘッダー調整。現在も念のため残す */
 .header-inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-/* OSのダークモードに自動追従 */
+
+/* ==============================
+   2. Legacy dark-mode support
+   以前の調整を含む。削除は表示確認後に行う。
+============================== */
+
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #111 !important;
@@ -76,12 +102,12 @@ body {
     color: #e6e6e6;
   }
 
-  /* 引用 */
+  /* 古い引用調整。後半の readable quotes が現在の主指定 */
   blockquote {
     color: #cfcfcf;
     border-left-color: #444;
   }
-/* 引用文の可読性改善 */
+
   blockquote {
   font-family: inherit;
   font-style: normal;
@@ -114,6 +140,7 @@ body {
     border-color: #333;
   }
 }
+
 @media (prefers-color-scheme: dark) {
   /* ヘッダーの文字色（タイトル＋右上ナビ） */
   .site-title,
@@ -133,6 +160,7 @@ body {
     fill: #e6e6e6 !important;
   }
 }
+
 @media (prefers-color-scheme: dark) {
   /* スマホのドロップダウン（白い箱）をダークに */
   .site-nav .trigger {
@@ -160,7 +188,12 @@ body {
     stroke: #ffffff;
   }
   }
-/* ギリシア語の引き伸ばし防止 */
+
+/* ==============================
+   3. Greek / classical text support
+   ギリシア語の引き伸ばし防止
+============================== */
+
 .post-content .greek,
 .post-content :lang(el),
 .post-content :lang(grc),
@@ -174,8 +207,9 @@ body {
   font-kerning: normal;
   font-family: "Palatino Linotype", "Times New Roman", Georgia, serif;
   }
+
 /* ==============================
-   Esprit header logo
+   4. Header logo and navigation
    ヘッダー左上：ロゴ + サイト名 + サブタイトル
 ============================== */
 
@@ -256,6 +290,7 @@ body {
   font-size: 0.98rem;
   letter-spacing: 0.03em;
 }
+
 @media screen and (max-width: 600px) {
   .site-header .wrapper {
     min-height: 72px;
@@ -278,8 +313,10 @@ body {
     max-width: 260px;
   }
 }
+
 /* ==============================
-   Esprit header light / dark
+   5. Esprit color variables
+   ライト / ダークの基礎色
 ============================== */
 
 :root {
@@ -299,11 +336,13 @@ body {
     --esprit-nav-bg: transparent;
   }
 }
+
 @media (prefers-color-scheme: dark) {
   .site-title::before {
     filter: invert(1) brightness(1.05);
   }
 }
+
 .site-nav {
   background: transparent;
   border: none;
@@ -318,7 +357,7 @@ body {
 }
 
 /* ==============================
-   Esprit home gateway
+   6. Home gateway
    トップページの入口案内
 ============================== */
 
@@ -363,7 +402,7 @@ body {
 }
 
 /* ==============================
-   Esprit readable quotes
+   7. Readable quotes
    引用文を読みやすくする
 ============================== */
 
@@ -401,7 +440,7 @@ body {
 }
 
 /* ==============================
-   Esprit case presentation box
+   8. Case presentation box
    症例呈示用の専用ボックス
 ============================== */
 
@@ -450,7 +489,7 @@ body {
 }
 
 /* ==============================
-   Esprit examination material box
+   9. Examination material box
    国家試験・設問資料用の専用ボックス
 ============================== */
 
