@@ -361,3 +361,57 @@ body {
     color: #b49a6c;
   }
 }
+
+/* ==============================
+   Esprit post watermark trial
+   記事ページ冒頭の透かし紋章
+============================== */
+
+.post-header {
+  position: relative;
+  overflow: hidden;
+  padding: 3rem 0 2.4rem;
+}
+
+.post-header::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -2.5rem;
+  width: 360px;
+  height: 360px;
+  background-image: url("/assets/img/logo-t.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.045;
+  pointer-events: none;
+  transform: translateY(-50%);
+  z-index: 0;
+}
+
+.post-title,
+.post-meta {
+  position: relative;
+  z-index: 1;
+}
+
+@media (prefers-color-scheme: dark) {
+  .post-header::before {
+    filter: invert(1) brightness(1.05);
+    opacity: 0.055;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .post-header {
+    padding: 2.4rem 0 2rem;
+  }
+
+  .post-header::before {
+    right: -7rem;
+    width: 260px;
+    height: 260px;
+    opacity: 0.035;
+  }
+}
