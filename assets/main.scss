@@ -361,3 +361,90 @@ body {
     color: #b49a6c;
   }
 }
+
+/* ==============================
+   Esprit readable quotes
+   引用文を読みやすくする
+============================== */
+
+.post-content blockquote,
+.page-content blockquote {
+  font-family: inherit;
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 1.95;
+  letter-spacing: normal;
+  margin: 2rem 0;
+  padding: 1rem 1.25rem;
+  border-left: 3px solid #8a7352;
+  background: rgba(255, 255, 255, 0.18);
+  color: inherit;
+}
+
+.post-content blockquote p,
+.page-content blockquote p {
+  margin-bottom: 0;
+}
+
+.post-content blockquote p + p,
+.page-content blockquote p + p {
+  margin-top: 1rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .post-content blockquote,
+  .page-content blockquote {
+    border-left-color: #b49a6c;
+    background: rgba(255, 255, 255, 0.04);
+    color: inherit;
+  }
+}
+
+/* ==============================
+   Esprit case presentation box
+   症例呈示用の専用ボックス
+============================== */
+
+.case-box {
+  margin: 2.2rem 0;
+  padding: 1.25rem 1.4rem;
+  border: 1px solid var(--esprit-border);
+  border-left: 4px solid #8a7352;
+  background: rgba(255, 255, 255, 0.20);
+}
+
+.case-box-label {
+  display: block;
+  margin-bottom: 0.8rem;
+  font-family: "Gill Sans", "Gill Sans MT", "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #8a7352;
+}
+
+.case-box-title {
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.case-box p {
+  margin-bottom: 1rem;
+}
+
+.case-box p:last-child {
+  margin-bottom: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .case-box {
+    border-left-color: #b49a6c;
+    background: rgba(255, 255, 255, 0.04);
+  }
+
+  .case-box-label {
+    color: #b49a6c;
+  }
+}
