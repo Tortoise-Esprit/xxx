@@ -18,6 +18,33 @@ list_title: Recent Essays
   text-decoration: none;
 }
 
+.home-gateway {
+  position: relative;
+  overflow: hidden;
+}
+
+.home-gateway::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 2rem;
+  width: 220px;
+  height: 220px;
+  background-image: url("/assets/img/logo-t.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.045;
+  pointer-events: none;
+  transform: translateY(-50%);
+  z-index: 0;
+}
+
+.home-gateway > * {
+  position: relative;
+  z-index: 1;
+}
+
 @media (prefers-color-scheme: dark) {
   .post-list .post-link,
   .post-list .post-link:link {
@@ -30,6 +57,20 @@ list_title: Recent Essays
 
   .post-list .post-link:hover {
     color: #d0b783;
+  }
+
+  .home-gateway::before {
+    filter: invert(1) brightness(1.05);
+    opacity: 0.055;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .home-gateway::before {
+    right: 0.5rem;
+    width: 150px;
+    height: 150px;
+    opacity: 0.035;
   }
 }
 </style>
