@@ -448,3 +448,55 @@ body {
     color: #b49a6c;
   }
 }
+
+/* ==============================
+   Esprit examination material box
+   国家試験・設問資料用の専用ボックス
+============================== */
+
+.exam-box {
+  margin: 2.2rem 0;
+  padding: 1.25rem 1.4rem;
+  border: 1px solid var(--esprit-border);
+  border-left: 4px solid #8a7352;
+  background: rgba(255, 255, 255, 0.16);
+}
+
+.exam-box-label {
+  display: block;
+  margin-bottom: 0.8rem;
+  font-family: "Gill Sans", "Gill Sans MT", "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #8a7352;
+}
+
+.exam-box-title {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.exam-box p,
+.exam-box li {
+  line-height: 1.85;
+}
+
+.exam-box ol,
+.exam-box ul {
+  margin-top: 0.6rem;
+  margin-bottom: 1.2rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .exam-box {
+    border-left-color: #b49a6c;
+    background: rgba(255, 255, 255, 0.035);
+  }
+
+  .exam-box-label {
+    color: #b49a6c;
+  }
+}
