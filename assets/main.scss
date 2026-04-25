@@ -367,13 +367,13 @@ body {
    記事ページ冒頭の透かし紋章
 ============================== */
 
-.post-header {
+article[itemtype="http://schema.org/BlogPosting"] .post-header {
   position: relative;
   overflow: hidden;
   padding: 3rem 0 2.4rem;
 }
 
-.post-header::before {
+article[itemtype="http://schema.org/BlogPosting"] .post-header::before {
   content: "";
   position: absolute;
   top: 50%;
@@ -390,25 +390,25 @@ body {
   z-index: 0;
 }
 
-.post-title,
-.post-meta {
+article[itemtype="http://schema.org/BlogPosting"] .post-title,
+article[itemtype="http://schema.org/BlogPosting"] .post-meta {
   position: relative;
   z-index: 1;
 }
 
 @media (prefers-color-scheme: dark) {
-  .post-header::before {
+  article[itemtype="http://schema.org/BlogPosting"] .post-header::before {
     filter: invert(1) brightness(1.05);
     opacity: 0.055;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .post-header {
+  article[itemtype="http://schema.org/BlogPosting"] .post-header {
     padding: 2.4rem 0 2rem;
   }
 
-  .post-header::before {
+  article[itemtype="http://schema.org/BlogPosting"] .post-header::before {
     right: 0.5rem;
     width: 150px;
     height: 150px;
