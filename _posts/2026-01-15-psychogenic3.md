@@ -4,6 +4,15 @@ date: 2026-01-15
 excerpt: "DSM-III成立の背景と、「了解」の意義について。"
 description: "DSM-III以降、診断の安定性は増したが、臨床の本質である「了解可能性」の視座はどこへ行ったのか。臨床医としての小さな違和感を、静かに掘り下げる。"
 ---
+<div class="series-box">
+  <span class="series-box-label">Series</span>
+  <p class="series-box-title">体験反応を巡って</p>
+  <ol>
+    <li><a href="/2025/12/17/psychogenic1.html">体験反応を巡って (I)</a></li>
+    <li><a href="/2026/01/06/psychogenic2.html">体験反応を巡って (II)</a></li>
+    <li><span class="series-box-current">体験反応を巡って (III)</span></li>
+  </ol>
+</div>
 
 ## 前回までのまとめ
 
