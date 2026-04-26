@@ -5,6 +5,16 @@ date: 2025-12-17
 excerpt: "精神障害における「疾患的なもの」と「疾患的でないもの」の境目について。"
 description: "日々の診察の中で感じる「病気とは何か」という素朴な問いを、先達の言葉を借りて慎重に考えました。内因と心因の区別という、難解なテーマに、一歩ずつ向き合う記録です。"
 ---
+<div class="series-box">
+  <span class="series-box-label">Series</span>
+  <p class="series-box-title">体験反応を巡って</p>
+  <ol>
+    <li><span class="series-box-current">体験反応を巡って (I)</span></li>
+    <li><a href="/2026/01/06/psychogenic2.html">体験反応を巡って (II)</a></li>
+    <li><a href="/2026/01/15/psychogenic3.html">体験反応を巡って (III)</a></li>
+  </ol>
+</div>
+
 ## 疾患的なもの、そうでないもの
 
 精神障害には「疾患的なもの」と「疾患的でないもの」に分けられる。
