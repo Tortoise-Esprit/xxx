@@ -5,6 +5,16 @@ date: 2026-04-08
 excerpt: "パラノイアとは何か。妄想性障害との違い、語の歴史的変遷、そして「病気か人格か」という古くて新しいパラノイア問題の核心をたどる。"
 description: "パラノイア問題とは何かを、語の歴史、クレペリンの定義、真性パラノイアの問題から整理する。妄想、人格、疾患性をめぐる精神病理学上の問いを考える。"
 ---
+<div class="series-box">
+  <span class="series-box-label">Series</span>
+  <p class="series-box-title">パラノイア問題</p>
+  <ol>
+    <li><span class="series-box-current">パラノイア問題 (I)</span></li>
+    <li><a href="/2026/04/22/paranoidfrage2.html">パラノイア問題 (II)</a></li>
+    <li>パラノイア問題 (III)（準備中）</li>
+  </ol>
+</div>
+
 # はじめに
 「パラノイア問題（Paranoiafrage）」という精神医学上の問題がある。これは19世紀末から提起された問題であるが、最近ではあまり話題にされなくなったように思われる。
 
