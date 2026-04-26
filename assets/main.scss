@@ -15,6 +15,7 @@
    7. Readable quotes
    8. Case presentation box
    9. Examination material box
+   10. Series guide box
 
    Note:
    This file has been kept functionally unchanged in this pass.
@@ -536,6 +537,67 @@ body {
   }
 
   .exam-box-label {
+    color: #b49a6c;
+  }
+}
+
+/* ==============================
+   10. Series guide box
+   連載記事の案内用ボックス
+============================== */
+
+.series-box {
+  margin: 1.4rem 0 2.4rem;
+  padding: 1.15rem 1.35rem;
+  border: 1px solid var(--esprit-border);
+  border-left: 4px solid #8a7352;
+  background: rgba(255, 255, 255, 0.14);
+}
+
+.series-box-label {
+  display: block;
+  margin-bottom: 0.65rem;
+  font-family: "Gill Sans", "Gill Sans MT", "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.76rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #8a7352;
+}
+
+.series-box-title {
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.series-box ol {
+  margin-top: 0.4rem;
+  margin-bottom: 0;
+  padding-left: 1.4rem;
+}
+
+.series-box li {
+  margin-bottom: 0.35rem;
+  line-height: 1.7;
+}
+
+.series-box li:last-child {
+  margin-bottom: 0;
+}
+
+.series-box-current {
+  font-weight: 600;
+  color: var(--esprit-text);
+}
+
+@media (prefers-color-scheme: dark) {
+  .series-box {
+    border-left-color: #b49a6c;
+    background: rgba(255, 255, 255, 0.035);
+  }
+
+  .series-box-label {
     color: #b49a6c;
   }
 }
