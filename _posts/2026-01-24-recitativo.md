@@ -5,6 +5,17 @@ date: 2026-01-24
 excerpt: "「パターン」という思考の枠組みについて。"
 description: "安永浩の理論の基礎となる〈パターン〉を、具体例とともに整理し、理解のための前提を確認する。"
 ---
+<div class="series-box">
+  <span class="series-box-label">Series</span>
+  <p class="series-box-title">パターン</p>
+  <ol>
+    <li><a href="/2026/01/23/overture.html">パターン＜序＞</a></li>
+    <li><span class="series-box-current">パターン＜破＞</span></li>
+    <li><a href="/2026/02/03/aria.html">パターン＜急＞</a></li>
+    <li>パターン＜転＞（準備中）</li>
+  </ol>
+</div>
+
 前回の続きだ。
 まずは「パターン」の話をしたい。実存的二元論と括弧付きで述べたが、実存何某は早速忘れてもらってよい。
 
