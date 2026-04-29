@@ -11,7 +11,7 @@ description: "パラノイア問題とは何かを、語の歴史、クレペリ
   <ol>
     <li><span class="series-box-current">パラノイア問題 (I)</span></li>
     <li><a href="/2026/04/22/paranoidfrage2.html">パラノイア問題 (II)</a></li>
-    <li>パラノイア問題 (III)（準備中）</li>
+    <li><a href="/2026/04/30/paranoiafrage3.html">パラノイア問題 (III)</a></li>
   </ol>
 </div>
 
