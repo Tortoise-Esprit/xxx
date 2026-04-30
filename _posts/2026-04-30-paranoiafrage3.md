@@ -40,7 +40,70 @@ description: "パラノイア問題の最終回。パラノイド、パラフレ
 
 まずは以下の表を見ていただきたい。
 
-<table>
+<style>
+  .psy-table-wrap {
+    margin: 2rem 0;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .psy-table {
+    min-width: 680px;
+    width: 100%;
+    border-collapse: collapse;
+    background: #f7f5f1 !important;
+    color: #242424 !important;
+    font-size: 0.98rem;
+  }
+
+  .psy-table caption {
+    caption-side: top;
+    padding: 0 0 0.75rem;
+    color: inherit;
+    text-align: left;
+    font-size: 0.92rem;
+  }
+
+  .psy-table th,
+  .psy-table td {
+    min-width: 8.5rem;
+    padding: 0.85rem 1rem;
+    border: 1px solid #d8d1c9 !important;
+    background: #f7f5f1 !important;
+    color: #242424 !important;
+    vertical-align: top;
+    line-height: 1.7;
+    word-break: normal;
+    overflow-wrap: normal;
+    white-space: normal;
+  }
+
+  .psy-table thead th {
+    background: #ede9e3 !important;
+    font-weight: 600;
+  }
+
+  .psy-table tbody th {
+    background: #f1ede7 !important;
+    font-weight: 600;
+  }
+
+  @media screen and (max-width: 600px) {
+    .psy-table {
+      min-width: 720px;
+      font-size: 0.95rem;
+    }
+
+    .psy-table th,
+    .psy-table td {
+      min-width: 9rem;
+      padding: 0.8rem 0.9rem;
+    }
+  }
+</style>
+
+<div class="psy-table-wrap">
+<table class="psy-table">
   <caption>表　クレペリンによる早発性痴呆、パラフレニー、パラノイアの定義</caption>
   <thead>
     <tr>
@@ -61,7 +124,7 @@ description: "パラノイア問題の最終回。パラノイド、パラフレ
       <th>パラフレニー</th>
       <td>○</td>
       <td>△<br>（末期まで目立たない）</td>
-      <td></td>
+      <td>統合失調症</td>
     </tr>
     <tr>
       <th>パラノイア</th>
@@ -71,6 +134,7 @@ description: "パラノイア問題の最終回。パラノイド、パラフレ
     </tr>
   </tbody>
 </table>
+</div>
 
 パラフレニーという術語がある。これも現在ではほとんど顧みられることのない類型であるが、かつては早発性痴呆とパラノイアの中間形態を指すことが多かった。
 
