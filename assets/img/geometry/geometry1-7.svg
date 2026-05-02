@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">a軸・b軸、a=b境界、MNとOPの対応関係を含む模式図</title>
+  <desc id="desc">左にa軸とb軸、右にa=bの斜線で区切られた領域、下にOP線分を置き、MNとOPの対応を示す図。</desc>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <defs>
+    <marker id="arrow-red" markerWidth="12" markerHeight="12" refX="6" refY="6" orient="auto-start-reverse">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#ef4438"/>
+    </marker>
+    <marker id="arrow-blue" markerWidth="12" markerHeight="12" refX="6" refY="6" orient="auto-start-reverse">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#2f62ff"/>
+    </marker>
+    <style>
+      .axis { stroke-width: 8; stroke-linecap: square; }
+      .frame { stroke: #000; stroke-width: 8; fill: none; }
+      .thin { stroke: #000; stroke-width: 7; fill: none; }
+      .dash-black { stroke: #000; stroke-width: 9; stroke-linecap: round; stroke-dasharray: 1 28; }
+      .dash-red { stroke: #ef4438; stroke-width: 8; stroke-linecap: round; stroke-dasharray: 1 26; }
+      .dash-blue { stroke: #2f62ff; stroke-width: 8; stroke-linecap: round; stroke-dasharray: 1 26; }
+      .diag { stroke: #000; stroke-width: 8; }
+      .label { font-family: 'Hiragino Mincho ProN', 'Yu Mincho', 'Noto Serif CJK JP', serif; font-size: 46px; fill: #000; }
+      .biglabel { font-family: 'Hiragino Mincho ProN', 'Yu Mincho', 'Noto Serif CJK JP', serif; font-size: 48px; fill: #000; }
+      .axis-label { font-family: 'Hiragino Mincho ProN', 'Yu Mincho', 'Noto Serif CJK JP', serif; font-size: 42px; }
+      .small { font-family: Georgia, 'Times New Roman', serif; font-size: 46px; fill: #000; }
+      .max { font-family: Georgia, 'Times New Roman', serif; font-size: 34px; fill: #000; }
+    </style>
+  </defs>
+
+  <!-- left scales -->
+  <line x1="150" y1="710" x2="150" y2="165" stroke="#ef4438" class="axis" marker-end="url(#arrow-red)"/>
+  <line x1="360" y1="710" x2="360" y2="165" stroke="#2f62ff" class="axis" marker-end="url(#arrow-blue)"/>
+  <text x="140" y="145" class="axis-label" fill="#ef4438">a</text>
+  <text x="352" y="145" class="axis-label" fill="#2f62ff">b</text>
+  <text x="62" y="195" class="max">max</text>
+  <text x="215" y="195" class="max">max</text>
+  <text x="70" y="530" class="axis-label" fill="#ef4438">a軸</text>
+  <text x="275" y="530" class="axis-label" fill="#2f62ff">b軸</text>
+
+  <!-- MN segment on b-axis -->
+  <ellipse cx="350" cy="285" rx="90" ry="115" fill="none" stroke="#ffcc3f" stroke-width="6"/>
+  <text x="315" y="275" class="small">M</text>
+  <text x="315" y="425" class="small">N</text>
+
+  <!-- right relation square -->
+  <rect x="735" y="155" width="740" height="555" fill="#bfbfbf"/>
+  <rect x="735" y="155" width="740" height="555" class="frame"/>
+  <polygon points="735,155 735,710 1475,710" fill="#ffffff"/>
+  <line x1="735" y1="155" x2="1475" y2="710" class="diag"/>
+
+  <!-- dotted projections -->
+  <line x1="150" y1="285" x2="1075" y2="285" class="dash-red"/>
+  <line x1="360" y1="405" x2="1075" y2="405" class="dash-blue"/>
+  <line x1="1075" y1="155" x2="1075" y2="835" class="dash-black"/>
+  <line x1="735" y1="710" x2="735" y2="835" class="dash-black"/>
+  <line x1="1475" y1="710" x2="1475" y2="835" class="dash-black"/>
+
+  <!-- highlighted points -->
+  <circle cx="150" cy="285" r="14" fill="none" stroke="#ef4438" stroke-width="7"/>
+  <circle cx="1075" cy="285" r="14" fill="none" stroke="#ef4438" stroke-width="7"/>
+  <circle cx="360" cy="405" r="14" fill="#2f62ff"/>
+  <circle cx="1075" cy="405" r="14" fill="#2f62ff"/>
+
+  <!-- region labels -->
+  <text x="885" y="450" class="biglabel">a&lt;b</text>
+  <text x="1115" y="285" class="biglabel">a&gt;b</text>
+  <text x="1240" y="535" class="biglabel">a=b</text>
+
+  <!-- letters -->
+  <text x="690" y="165" class="small">X</text>
+  <text x="1488" y="165" class="small">Z</text>
+  <text x="1488" y="715" class="small">Y</text>
+  <text x="680" y="835" class="small">O</text>
+  <text x="1088" y="860" class="small">P</text>
+  <text x="1478" y="860" class="small">O’</text>
+
+  <!-- OP line -->
+  <line x1="735" y1="835" x2="1475" y2="835" class="thin"/>
+  <ellipse cx="905" cy="830" rx="175" ry="55" fill="none" stroke="#ffcc3f" stroke-width="6"/>
+</svg>
