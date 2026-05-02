@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">a軸・b軸とa=b境界の模式図</title>
+  <desc id="desc">左にa軸とb軸、右にa=bの斜線で区切られたa&lt;b領域とa&gt;b領域を示す図。</desc>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <defs>
+    <marker id="arrow-red" markerWidth="12" markerHeight="12" refX="6" refY="6" orient="auto-start-reverse">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#ef4438"/>
+    </marker>
+    <marker id="arrow-blue" markerWidth="12" markerHeight="12" refX="6" refY="6" orient="auto-start-reverse">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#2f62ff"/>
+    </marker>
+    <style>
+      .axis { stroke-width: 8; stroke-linecap: square; }
+      .frame { stroke: #000; stroke-width: 8; fill: none; }
+      .dash { stroke: #000; stroke-width: 10; stroke-linecap: round; stroke-dasharray: 1 30; }
+      .diag { stroke: #000; stroke-width: 9; stroke-linecap: round; stroke-dasharray: 1 28; }
+      .label { font-family: 'Hiragino Mincho ProN', 'Yu Mincho', 'Noto Serif CJK JP', serif; font-size: 58px; fill: #000; }
+      .axis-label { font-family: 'Hiragino Mincho ProN', 'Yu Mincho', 'Noto Serif CJK JP', serif; font-size: 58px; }
+    </style>
+  </defs>
+
+  <!-- left independent intensity scales -->
+  <line x1="100" y1="880" x2="100" y2="120" stroke="#ef4438" class="axis" marker-end="url(#arrow-red)"/>
+  <line x1="245" y1="880" x2="245" y2="120" stroke="#2f62ff" class="axis" marker-end="url(#arrow-blue)"/>
+  <text x="130" y="570" class="axis-label" fill="#ef4438">a軸</text>
+  <text x="280" y="570" class="axis-label" fill="#2f62ff">b軸</text>
+
+  <!-- relation area -->
+  <rect x="395" y="105" width="1105" height="775" fill="#bfbfbf"/>
+  <path d="M395 105 L395 880 L1500 880" class="frame"/>
+  <line x1="105" y1="105" x2="1500" y2="105" class="dash"/>
+
+  <!-- white region a<b -->
+  <polygon points="395,105 395,880 1500,880" fill="#ffffff"/>
+  <line x1="395" y1="105" x2="1500" y2="880" class="diag"/>
+
+  <text x="720" y="535" class="label">a&lt;b</text>
+  <text x="930" y="465" class="label">a=b</text>
+  <text x="1190" y="305" class="label">a&gt;b</text>
+</svg>
