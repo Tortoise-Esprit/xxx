@@ -4,44 +4,49 @@
   <rect width="100%" height="100%" fill="#ffffff"/>
   <defs>
     <marker id="arrow-red" markerWidth="12" markerHeight="12" refX="6" refY="6" orient="auto-start-reverse">
-      <path d="M0,0 L12,6 L0,12 Z" fill="#ef4438"/>
+      <path d="M0,0 L12,6 L0,12 Z" fill="#b85c4a"/>
     </marker>
     <marker id="arrow-blue" markerWidth="12" markerHeight="12" refX="6" refY="6" orient="auto-start-reverse">
-      <path d="M0,0 L12,6 L0,12 Z" fill="#2f62ff"/>
+      <path d="M0,0 L12,6 L0,12 Z" fill="#4f6fae"/>
     </marker>
     <style>
       .axis { stroke-width: 8; stroke-linecap: square; }
-      .frame { stroke: #000; stroke-width: 8; fill: none; }
-      .thin { stroke: #000; stroke-width: 7; fill: none; }
-      .dash-black { stroke: #000; stroke-width: 9; stroke-linecap: round; stroke-dasharray: 1 28; }
-      .dash-red { stroke: #ef4438; stroke-width: 8; stroke-linecap: round; stroke-dasharray: 1 26; }
-      .dash-blue { stroke: #2f62ff; stroke-width: 8; stroke-linecap: round; stroke-dasharray: 1 26; }
-      .diag { stroke: #000; stroke-width: 8; }
-      .label { font-family: 'Hiragino Mincho ProN', 'Yu Mincho', 'Noto Serif CJK JP', serif; font-size: 46px; fill: #000; }
-      .biglabel { font-family: 'Hiragino Mincho ProN', 'Yu Mincho', 'Noto Serif CJK JP', serif; font-size: 48px; fill: #000; }
-      .axis-label { font-family: 'Hiragino Mincho ProN', 'Yu Mincho', 'Noto Serif CJK JP', serif; font-size: 42px; }
-      .small { font-family: Georgia, 'Times New Roman', serif; font-size: 46px; fill: #000; }
-      .max { font-family: Georgia, 'Times New Roman', serif; font-size: 34px; fill: #000; }
+      .frame { stroke: #111; stroke-width: 8; fill: none; }
+      .thin { stroke: #111; stroke-width: 7; fill: none; }
+      .dash-black { stroke: #111; stroke-width: 9; stroke-linecap: round; stroke-dasharray: 1 28; }
+      .dash-red { stroke: #b85c4a; stroke-width: 8; stroke-linecap: round; stroke-dasharray: 1 26; }
+      .dash-blue { stroke: #4f6fae; stroke-width: 8; stroke-linecap: round; stroke-dasharray: 1 26; }
+      .diag { stroke: #111; stroke-width: 8; }
+      .label,
+      .biglabel,
+      .axis-label,
+      .small,
+      .max { font-family: 'Gill Sans', 'Gill Sans MT', 'Avenir Next', 'Helvetica Neue', Arial, sans-serif; fill: #111; }
+      .label { font-size: 46px; }
+      .biglabel { font-size: 48px; }
+      .axis-label { font-size: 42px; }
+      .small { font-size: 46px; }
+      .max { font-size: 34px; }
     </style>
   </defs>
 
   <!-- left scales -->
-  <line x1="150" y1="710" x2="150" y2="165" stroke="#ef4438" class="axis" marker-end="url(#arrow-red)"/>
-  <line x1="360" y1="710" x2="360" y2="165" stroke="#2f62ff" class="axis" marker-end="url(#arrow-blue)"/>
-  <text x="140" y="145" class="axis-label" fill="#ef4438">a</text>
-  <text x="352" y="145" class="axis-label" fill="#2f62ff">b</text>
+  <line x1="150" y1="710" x2="150" y2="165" stroke="#b85c4a" class="axis" marker-end="url(#arrow-red)"/>
+  <line x1="360" y1="710" x2="360" y2="165" stroke="#4f6fae" class="axis" marker-end="url(#arrow-blue)"/>
+  <text x="140" y="145" class="axis-label" fill="#b85c4a">a</text>
+  <text x="352" y="145" class="axis-label" fill="#4f6fae">b</text>
   <text x="62" y="195" class="max">max</text>
   <text x="215" y="195" class="max">max</text>
-  <text x="70" y="530" class="axis-label" fill="#ef4438">a軸</text>
-  <text x="275" y="530" class="axis-label" fill="#2f62ff">b軸</text>
+  <text x="70" y="530" class="axis-label" fill="#b85c4a">a軸</text>
+  <text x="275" y="530" class="axis-label" fill="#4f6fae">b軸</text>
 
   <!-- MN segment on b-axis -->
-  <ellipse cx="350" cy="285" rx="90" ry="115" fill="none" stroke="#ffcc3f" stroke-width="6"/>
+  <ellipse cx="350" cy="285" rx="90" ry="115" fill="none" stroke="#c9a646" stroke-width="6"/>
   <text x="315" y="275" class="small">M</text>
   <text x="315" y="425" class="small">N</text>
 
   <!-- right relation square -->
-  <rect x="735" y="155" width="740" height="555" fill="#bfbfbf"/>
+  <rect x="735" y="155" width="740" height="555" fill="#c8c6c2"/>
   <rect x="735" y="155" width="740" height="555" class="frame"/>
   <polygon points="735,155 735,710 1475,710" fill="#ffffff"/>
   <line x1="735" y1="155" x2="1475" y2="710" class="diag"/>
@@ -54,10 +59,10 @@
   <line x1="1475" y1="710" x2="1475" y2="835" class="dash-black"/>
 
   <!-- highlighted points -->
-  <circle cx="150" cy="285" r="14" fill="none" stroke="#ef4438" stroke-width="7"/>
-  <circle cx="1075" cy="285" r="14" fill="none" stroke="#ef4438" stroke-width="7"/>
-  <circle cx="360" cy="405" r="14" fill="#2f62ff"/>
-  <circle cx="1075" cy="405" r="14" fill="#2f62ff"/>
+  <circle cx="150" cy="285" r="14" fill="none" stroke="#b85c4a" stroke-width="7"/>
+  <circle cx="1075" cy="285" r="14" fill="none" stroke="#b85c4a" stroke-width="7"/>
+  <circle cx="360" cy="405" r="14" fill="#4f6fae"/>
+  <circle cx="1075" cy="405" r="14" fill="#4f6fae"/>
 
   <!-- region labels -->
   <text x="885" y="450" class="biglabel">a&lt;b</text>
@@ -74,5 +79,5 @@
 
   <!-- OP line -->
   <line x1="735" y1="835" x2="1475" y2="835" class="thin"/>
-  <ellipse cx="905" cy="830" rx="175" ry="55" fill="none" stroke="#ffcc3f" stroke-width="6"/>
+  <ellipse cx="905" cy="830" rx="175" ry="55" fill="none" stroke="#c9a646" stroke-width="6"/>
 </svg>
