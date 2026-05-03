@@ -12,7 +12,7 @@ description: "安永浩の理論の基礎となる〈パターン〉を、具体
     <li><a href="/2026/01/23/overture.html">パターン＜序＞</a></li>
     <li><span class="series-box-current">パターン＜破＞</span></li>
     <li><a href="/2026/02/03/aria.html">パターン＜急＞</a></li>
-    <li>パターン＜転＞（準備中）</li>
+    <li><a href="/2026/02/10/ensemble.html">パターン＜転＞</a></li>
   </ol>
 </div>
 
