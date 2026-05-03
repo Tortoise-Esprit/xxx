@@ -23,5 +23,6 @@ image: "/assets/ogp/ogp-default.png"
 
 header_pages:
   - about.md
+  - glossary/index.md
   - contact.md
   - privacy.md
