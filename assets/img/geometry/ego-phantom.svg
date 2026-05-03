@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 520" role="img" aria-labelledby="title desc">
+  <title id="title">体験線とファントムの範囲</title>
+  <desc id="desc">左にe、右にfを置き、体験線上にEとFを示す。楕円はファントムの範囲を表す。</desc>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <defs>
+    <marker id="arrow-black" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L14,7 L0,14 Z" fill="#111111"/>
+    </marker>
+    <style>
+      .latin { font-family: 'Gill Sans', 'Gill Sans MT', 'Avenir Next', 'Helvetica Neue', Arial, sans-serif; fill: #111; }
+      .jp { font-family: 'Hiragino Mincho ProN', 'Yu Mincho', 'Noto Serif CJK JP', serif; fill: #111; }
+      .dot { fill: #cfcfcf; }
+      .line { stroke: #111; stroke-width: 7; stroke-linecap: square; }
+      .phantom { stroke: #111; stroke-width: 4; fill: none; }
+    </style>
+  </defs>
+
+  <!-- pale dotted background -->
+  <g opacity="0.85">
+    <circle class="dot" cx="40" cy="40" r="4"/><circle class="dot" cx="150" cy="40" r="4"/><circle class="dot" cx="260" cy="40" r="4"/><circle class="dot" cx="370" cy="40" r="4"/><circle class="dot" cx="480" cy="40" r="4"/><circle class="dot" cx="590" cy="40" r="4"/><circle class="dot" cx="700" cy="40" r="4"/><circle class="dot" cx="810" cy="40" r="4"/><circle class="dot" cx="920" cy="40" r="4"/><circle class="dot" cx="1030" cy="40" r="4"/><circle class="dot" cx="1140" cy="40" r="4"/><circle class="dot" cx="1250" cy="40" r="4"/><circle class="dot" cx="1360" cy="40" r="4"/>
+    <circle class="dot" cx="40" cy="150" r="4"/><circle class="dot" cx="150" cy="150" r="4"/><circle class="dot" cx="260" cy="150" r="4"/><circle class="dot" cx="370" cy="150" r="4"/><circle class="dot" cx="480" cy="150" r="4"/><circle class="dot" cx="590" cy="150" r="4"/><circle class="dot" cx="700" cy="150" r="4"/><circle class="dot" cx="810" cy="150" r="4"/><circle class="dot" cx="920" cy="150" r="4"/><circle class="dot" cx="1030" cy="150" r="4"/><circle class="dot" cx="1140" cy="150" r="4"/><circle class="dot" cx="1250" cy="150" r="4"/><circle class="dot" cx="1360" cy="150" r="4"/>
+    <circle class="dot" cx="40" cy="260" r="4"/><circle class="dot" cx="150" cy="260" r="4"/><circle class="dot" cx="260" cy="260" r="4"/><circle class="dot" cx="370" cy="260" r="4"/><circle class="dot" cx="480" cy="260" r="4"/><circle class="dot" cx="590" cy="260" r="4"/><circle class="dot" cx="700" cy="260" r="4"/><circle class="dot" cx="810" cy="260" r="4"/><circle class="dot" cx="920" cy="260" r="4"/><circle class="dot" cx="1030" cy="260" r="4"/><circle class="dot" cx="1140" cy="260" r="4"/><circle class="dot" cx="1250" cy="260" r="4"/><circle class="dot" cx="1360" cy="260" r="4"/>
+    <circle class="dot" cx="40" cy="370" r="4"/><circle class="dot" cx="150" cy="370" r="4"/><circle class="dot" cx="260" cy="370" r="4"/><circle class="dot" cx="370" cy="370" r="4"/><circle class="dot" cx="480" cy="370" r="4"/><circle class="dot" cx="590" cy="370" r="4"/><circle class="dot" cx="700" cy="370" r="4"/><circle class="dot" cx="810" cy="370" r="4"/><circle class="dot" cx="920" cy="370" r="4"/><circle class="dot" cx="1030" cy="370" r="4"/><circle class="dot" cx="1140" cy="370" r="4"/><circle class="dot" cx="1250" cy="370" r="4"/><circle class="dot" cx="1360" cy="370" r="4"/>
+    <circle class="dot" cx="40" cy="480" r="4"/><circle class="dot" cx="150" cy="480" r="4"/><circle class="dot" cx="260" cy="480" r="4"/><circle class="dot" cx="370" cy="480" r="4"/><circle class="dot" cx="480" cy="480" r="4"/><circle class="dot" cx="590" cy="480" r="4"/><circle class="dot" cx="700" cy="480" r="4"/><circle class="dot" cx="810" cy="480" r="4"/><circle class="dot" cx="920" cy="480" r="4"/><circle class="dot" cx="1030" cy="480" r="4"/><circle class="dot" cx="1140" cy="480" r="4"/><circle class="dot" cx="1250" cy="480" r="4"/><circle class="dot" cx="1360" cy="480" r="4"/>
+  </g>
+
+  <ellipse class="phantom" cx="615" cy="250" rx="405" ry="135"/>
+  <line class="line" x1="220" y1="250" x2="1000" y2="250" marker-end="url(#arrow-black)"/>
+  <line class="line" x1="360" y1="220" x2="360" y2="280"/>
+  <line class="line" x1="850" y1="220" x2="850" y2="280"/>
+
+  <text class="latin" x="86" y="277" font-size="62">e</text>
+  <text class="latin" x="1080" y="277" font-size="62">f</text>
+  <text class="latin" x="345" y="203" font-size="70">E</text>
+  <text class="latin" x="835" y="203" font-size="70">F</text>
+  <text class="jp" x="740" y="445" font-size="38">楕円はファントムの範囲を表す</text>
+</svg>
