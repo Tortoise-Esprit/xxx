@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 520" role="img" aria-labelledby="title desc">
+  <title id="title">ファントム短縮とEの上手化</title>
+  <desc id="desc">ファントム短縮が生じ、Eがeよりも上手になる図。左側に裂隙を示し、右側に短縮したファントムを示す。</desc>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <defs>
+    <marker id="arrow-black" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L14,7 L0,14 Z" fill="#111111"/>
+    </marker>
+    <marker id="arrow-curve" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L14,7 L0,14 Z" fill="#111111"/>
+    </marker>
+    <style>
+      .latin { font-family: 'Gill Sans', 'Gill Sans MT', 'Avenir Next', 'Helvetica Neue', Arial, sans-serif; fill: #111; }
+      .jp { font-family: 'Hiragino Mincho ProN', 'Yu Mincho', 'Noto Serif CJK JP', serif; fill: #111; }
+      .dotbg { fill: #cfcfcf; }
+      .line { stroke: #111; stroke-width: 7; stroke-linecap: square; }
+      .dotted { stroke: #111; stroke-width: 7; stroke-linecap: round; stroke-dasharray: 1 34; }
+      .curve { stroke: #111; stroke-width: 8; stroke-linecap: round; stroke-dasharray: 10 18; fill: none; }
+      .phantom { stroke: #111; stroke-width: 4; fill: none; }
+    </style>
+  </defs>
+
+  <!-- pale dotted background -->
+  <g opacity="0.85">
+    <circle class="dotbg" cx="40" cy="70" r="4"/><circle class="dotbg" cx="150" cy="70" r="4"/><circle class="dotbg" cx="260" cy="70" r="4"/><circle class="dotbg" cx="370" cy="70" r="4"/><circle class="dotbg" cx="480" cy="70" r="4"/><circle class="dotbg" cx="590" cy="70" r="4"/><circle class="dotbg" cx="700" cy="70" r="4"/><circle class="dotbg" cx="810" cy="70" r="4"/><circle class="dotbg" cx="920" cy="70" r="4"/><circle class="dotbg" cx="1030" cy="70" r="4"/><circle class="dotbg" cx="1140" cy="70" r="4"/><circle class="dotbg" cx="1250" cy="70" r="4"/>
+    <circle class="dotbg" cx="40" cy="180" r="4"/><circle class="dotbg" cx="150" cy="180" r="4"/><circle class="dotbg" cx="260" cy="180" r="4"/><circle class="dotbg" cx="370" cy="180" r="4"/><circle class="dotbg" cx="480" cy="180" r="4"/><circle class="dotbg" cx="590" cy="180" r="4"/><circle class="dotbg" cx="700" cy="180" r="4"/><circle class="dotbg" cx="810" cy="180" r="4"/><circle class="dotbg" cx="920" cy="180" r="4"/><circle class="dotbg" cx="1030" cy="180" r="4"/><circle class="dotbg" cx="1140" cy="180" r="4"/><circle class="dotbg" cx="1250" cy="180" r="4"/>
+    <circle class="dotbg" cx="40" cy="290" r="4"/><circle class="dotbg" cx="150" cy="290" r="4"/><circle class="dotbg" cx="260" cy="290" r="4"/><circle class="dotbg" cx="370" cy="290" r="4"/><circle class="dotbg" cx="480" cy="290" r="4"/><circle class="dotbg" cx="590" cy="290" r="4"/><circle class="dotbg" cx="700" cy="290" r="4"/><circle class="dotbg" cx="810" cy="290" r="4"/><circle class="dotbg" cx="920" cy="290" r="4"/><circle class="dotbg" cx="1030" cy="290" r="4"/><circle class="dotbg" cx="1140" cy="290" r="4"/><circle class="dotbg" cx="1250" cy="290" r="4"/>
+    <circle class="dotbg" cx="40" cy="400" r="4"/><circle class="dotbg" cx="150" cy="400" r="4"/><circle class="dotbg" cx="260" cy="400" r="4"/><circle class="dotbg" cx="370" cy="400" r="4"/><circle class="dotbg" cx="480" cy="400" r="4"/><circle class="dotbg" cx="590" cy="400" r="4"/><circle class="dotbg" cx="700" cy="400" r="4"/><circle class="dotbg" cx="810" cy="400" r="4"/><circle class="dotbg" cx="920" cy="400" r="4"/><circle class="dotbg" cx="1030" cy="400" r="4"/><circle class="dotbg" cx="1140" cy="400" r="4"/><circle class="dotbg" cx="1250" cy="400" r="4"/>
+  </g>
+
+  <circle cx="115" cy="260" r="18" fill="#000"/>
+  <line class="dotted" x1="150" y1="260" x2="420" y2="260"/>
+  <text class="jp" x="220" y="360" font-size="48">裂隙</text>
+
+  <path class="curve" d="M420 210 C405 120, 310 95, 180 95" marker-end="url(#arrow-curve)"/>
+  <text class="latin" x="75" y="105" font-size="72">E</text>
+  <text class="latin" x="378" y="225" font-size="64">e</text>
+
+  <text class="jp" x="455" y="88" font-size="40">ファントム短縮が生じEが上手になる</text>
+
+  <ellipse class="phantom" cx="720" cy="260" rx="220" ry="135"/>
+  <line class="line" x1="505" y1="260" x2="920" y2="260" marker-end="url(#arrow-black)"/>
+  <line class="line" x1="770" y1="226" x2="770" y2="294"/>
+  <text class="latin" x="750" y="210" font-size="72">F</text>
+  <text class="latin" x="1015" y="287" font-size="72">f</text>
+</svg>
