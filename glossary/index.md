@@ -2,7 +2,6 @@
 layout: page
 title: "Glossary"
 permalink: /glossary/
-published: false
 ---
 
 # 精神病理学を読むための小辞典
