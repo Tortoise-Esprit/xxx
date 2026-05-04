@@ -15,6 +15,7 @@ permalink: /glossary/delusion/
 ### 近接概念との違い
 
 **真性妄想**
+
 **妄想様観念**
 
 ### どこが難しいか
