@@ -3,7 +3,7 @@ layout: page
 title: "パラノイア"
 permalink: /glossary/paranoia/
 ---
-## ひとことでいえば
+### ひとことでいえば
 
 **体系化された妄想が、人格の大きな崩れを伴わずに持続・発展していくもの。**
 
