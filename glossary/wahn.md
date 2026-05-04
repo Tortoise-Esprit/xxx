@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "妄想"
-permalink: /glossary/delusion/
+permalink: /glossary/wahn/
 ---
 ### ひとことでいえば
 
