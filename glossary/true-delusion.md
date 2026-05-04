@@ -19,7 +19,7 @@ permalink: /glossary/true-delusion/
 
 **シュナイダーの一級症状**
 
-****
+**　**
 
 ### どこが難しいか
 
