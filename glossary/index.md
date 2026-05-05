@@ -21,7 +21,7 @@ permalink: /glossary/
 幻覚、妄想、自我障害、離人、解離など、臨床場面で出会う体験や症候に関する用語を扱います。
 
 - [妄想](/glossary/wahn/)
-  - [真性妄想](/glossary/primaerer-wahn/)
+  - [真性妄想](/glossary/echter-wahn/)
   - [妄想様観念](/glossary/wahnhafte-idee/)
   - [関係妄想](/glossary/beziehungswahn/)
   - [被害妄想](/glossary/verfolgungswahn/)
