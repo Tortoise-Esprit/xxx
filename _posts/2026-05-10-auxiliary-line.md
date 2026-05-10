@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "見えない補助線を引くこと"
+title: "見えない補助線を引く"
 date: 2026-05-10
 published: false
 excerpt: ""
