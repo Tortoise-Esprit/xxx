@@ -105,7 +105,7 @@ permalink: /fragments/
   場所や人物を説明しすぎず、文章の手前にある気配として残していきます。
 </p>
 
-{% assign fragments = "2026-05-16-evening.jpg|夕暮れの街路樹と歩道|Evening, 2026-05-16" | split: "," %}
+{% assign fragments = "2026-05-15-jiaozi.jpg|羽根つき餃子|Jiaozi, 2026-05-15,2026-05-15-river.jpg|昼の川辺|River, 2026-05-15,2026-05-16-evening.jpg|夕暮れの街路樹と歩道|Evening, 2026-05-16,2026-05-16-kaisendon.jpg|海鮮丼|Kaisendon, 2026-05-16,2026-05-16-pizza.jpg|食卓のピザ|Pizza, 2026-05-16,2026-05-16-river.jpg|夕方の水路|River, 2026-05-16,2026-05-17-qingjiao-rousi.jpg|青椒肉絲|Qingjiao Rousi, 2026-05-17,2026-05-17-sawara.jpg|鰆の皿|Sawara, 2026-05-17,2026-05-17-tortoise.jpg|水槽の亀|Tortoise, 2026-05-17" | split: "," %}
 {% assign first_fragment = fragments | first | split: "|" %}
 
 <figure class="fragments-hero">
@@ -139,9 +139,6 @@ permalink: /fragments/
   カンマ区切りで増やせます。
 
   ファイル名|altに使う短い説明|表示するキャプション
-
-  例:
-  {% assign fragments = "2026-05-16-evening.jpg|夕暮れの街路樹と歩道|Evening, 2026-05-16,2026-05-18-river.jpg|夕暮れの川辺|River, 2026-05-18" | split: "," %}
 
   画像ファイルは /assets/images/fragments/ に置く想定です。
   GLightboxにより、写真クリックで拡大表示され、左右の矢印で移動できます。
