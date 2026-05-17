@@ -53,6 +53,11 @@ permalink: /fragments/
 </p>
 
 <div class="fragments-grid">
+  <figure>
+    <img src="/assets/images/fragments/2026-05-16-evening.jpg" alt="夕暮れの街路樹と歩道">
+    <figcaption>Evening, 2026-05-16</figcaption>
+  </figure>
+
   <!--
   写真を追加するときは、以下の figure をコピーして使います。
   画像ファイルは /assets/images/fragments/ などに置く想定です。
