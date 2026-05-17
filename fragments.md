@@ -76,6 +76,18 @@ permalink: /fragments/
   color: #777;
 }
 
+.fragment-note {
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.fragment-exif {
+  display: block;
+  color: #aaa;
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
 @media (max-width: 640px) {
   .fragments-hero img {
     max-height: 58vh;
@@ -104,7 +116,7 @@ permalink: /fragments/
   日々の途中で目に留まった光と影、空気感、街角の断片を置いておくためのページです。
 </p>
 
-{% assign fragments = "2026-05-15-jiaozi.jpg|羽根つき餃子|Jiaozi 2026-05-15;2026-05-15-river.jpg|昼の川辺|River 2026-05-15;2026-05-16-evening.jpg|夕暮れの街路樹と歩道|Evening 2026-05-16;2026-05-16-kaisendon.jpg|海鮮丼|Kaisendon 2026-05-16;2026-05-16-pizza.jpg|食卓のピザ|Pizza 2026-05-16;2026-05-16-river.jpg|夕方の水路|River 2026-05-16;2026-05-17-qingjiao-rousi.jpg|青椒肉絲|Qingjiao Rousi 2026-05-17;2026-05-17-sawara.jpg|鰆の皿|Sawara 2026-05-17;2026-05-17-tortoise.jpg|水槽の亀|Tortoise 2026-05-17" | split: ";" %}
+{% assign fragments = "2026-05-16-evening.jpg|夕暮れの街路樹と歩道|Evening 2026-05-16;2026-05-15-jiaozi.jpg|羽根つき餃子|Jiaozi 2026-05-15;2026-05-15-river.jpg|昼の川辺|River 2026-05-15;2026-05-16-kaisendon.jpg|海鮮丼|Kaisendon 2026-05-16;2026-05-16-pizza.jpg|食卓のピザ|Pizza 2026-05-16;2026-05-16-river.jpg|夕方の水路|River 2026-05-16;2026-05-17-qingjiao-rousi.jpg|青椒肉絲|Qingjiao Rousi 2026-05-17;2026-05-17-sawara.jpg|鰆の皿|Sawara 2026-05-17;2026-05-17-tortoise.jpg|水槽の亀|Tortoise 2026-05-17" | split: ";" %}
 {% assign first_fragment = fragments | first | split: "|" %}
 
 <figure class="fragments-hero">
@@ -112,7 +124,7 @@ permalink: /fragments/
      class="glightbox"
      data-gallery="fragments"
      data-title="{{ first_fragment[2] }}"
-     data-description="{{ first_fragment[1] }}">
+     data-description="<span class='fragment-note'>{{ first_fragment[1] }}</span><span class='fragment-exif'>撮影情報を読み込み中</span>">
     <img src="{{ '/assets/images/fragments/' | append: first_fragment[0] | relative_url }}" alt="{{ first_fragment[1] }}">
   </a>
   <figcaption>{{ first_fragment[2] }}</figcaption>
@@ -126,7 +138,7 @@ permalink: /fragments/
          class="glightbox"
          data-gallery="fragments"
          data-title="{{ fragment[2] }}"
-         data-description="{{ fragment[1] }}">
+         data-description="<span class='fragment-note'>{{ fragment[1] }}</span><span class='fragment-exif'>撮影情報を読み込み中</span>">
         <img src="{{ '/assets/images/fragments/' | append: fragment[0] | relative_url }}" alt="{{ fragment[1] }}">
       </a>
       <figcaption>{{ fragment[2] }}</figcaption>
@@ -141,16 +153,53 @@ permalink: /fragments/
 
   画像ファイルは /assets/images/fragments/ に置く想定です。
   GLightboxにより、写真クリックで拡大表示され、左右の矢印で移動できます。
+  EXIFが画像に残っていれば、F値・シャッタースピード・ISO・焦点距離を自動表示します。
   -->
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/exifr/dist/lite.umd.js"></script>
 <script>
-  const fragmentsLightbox = GLightbox({
-    selector: '.glightbox',
-    touchNavigation: true,
-    loop: true,
-    zoomable: true,
-    draggable: true
-  });
+  function formatExposureTime(value) {
+    if (!value) return null;
+    if (value >= 1) return `${Number(value.toFixed(1))}s`;
+    return `1/${Math.round(1 / value)}s`;
+  }
+
+  function formatExif(exif) {
+    if (!exif) return '撮影情報なし';
+
+    const camera = [exif.Make, exif.Model].filter(Boolean).join(' ').replace('NIKON CORPORATION ', 'Nikon ');
+    const fNumber = exif.FNumber ? `f/${Number(exif.FNumber).toFixed(1).replace('.0', '')}` : null;
+    const shutter = formatExposureTime(exif.ExposureTime);
+    const iso = exif.ISO ? `ISO ${exif.ISO}` : null;
+    const focalLength = exif.FocalLength ? `${Number(exif.FocalLength).toFixed(0)}mm` : null;
+
+    return [camera, fNumber, shutter, iso, focalLength].filter(Boolean).join(' · ') || '撮影情報なし';
+  }
+
+  async function setupFragmentsLightbox() {
+    const links = Array.from(document.querySelectorAll('.glightbox'));
+
+    await Promise.all(links.map(async (link) => {
+      const note = link.querySelector('img')?.alt || '';
+
+      try {
+        const exif = await exifr.parse(link.href, ['Make', 'Model', 'FNumber', 'ExposureTime', 'ISO', 'FocalLength']);
+        link.dataset.description = `<span class="fragment-note">${note}</span><span class="fragment-exif">${formatExif(exif)}</span>`;
+      } catch (error) {
+        link.dataset.description = `<span class="fragment-note">${note}</span><span class="fragment-exif">撮影情報なし</span>`;
+      }
+    }));
+
+    GLightbox({
+      selector: '.glightbox',
+      touchNavigation: true,
+      loop: true,
+      zoomable: true,
+      draggable: true
+    });
+  }
+
+  setupFragmentsLightbox();
 </script>
