@@ -102,10 +102,9 @@ permalink: /fragments/
 
 <p class="fragments-intro">
   日々の途中で目に留まった光と影、空気感、街角の断片を置いておくためのページです。
-  
 </p>
 
-{% assign fragments = "2026-05-15-jiaozi.jpg|羽根つき餃子|Jiaozi, 2026-05-15,2026-05-15-river.jpg|昼の川辺|River, 2026-05-15,2026-05-16-evening.jpg|夕暮れの街路樹と歩道|Evening, 2026-05-16,2026-05-16-kaisendon.jpg|海鮮丼|Kaisendon, 2026-05-16,2026-05-16-pizza.jpg|食卓のピザ|Pizza, 2026-05-16,2026-05-16-river.jpg|夕方の水路|River, 2026-05-16,2026-05-17-qingjiao-rousi.jpg|青椒肉絲|Qingjiao Rousi, 2026-05-17,2026-05-17-sawara.jpg|鰆の皿|Sawara, 2026-05-17,2026-05-17-tortoise.jpg|水槽の亀|Tortoise, 2026-05-17" | split: "," %}
+{% assign fragments = "2026-05-15-jiaozi.jpg|羽根つき餃子|Jiaozi 2026-05-15;2026-05-15-river.jpg|昼の川辺|River 2026-05-15;2026-05-16-evening.jpg|夕暮れの街路樹と歩道|Evening 2026-05-16;2026-05-16-kaisendon.jpg|海鮮丼|Kaisendon 2026-05-16;2026-05-16-pizza.jpg|食卓のピザ|Pizza 2026-05-16;2026-05-16-river.jpg|夕方の水路|River 2026-05-16;2026-05-17-qingjiao-rousi.jpg|青椒肉絲|Qingjiao Rousi 2026-05-17;2026-05-17-sawara.jpg|鰆の皿|Sawara 2026-05-17;2026-05-17-tortoise.jpg|水槽の亀|Tortoise 2026-05-17" | split: ";" %}
 {% assign first_fragment = fragments | first | split: "|" %}
 
 <figure class="fragments-hero">
@@ -136,7 +135,7 @@ permalink: /fragments/
 
   <!--
   写真を追加するときは、上の fragments 変数に以下の形式で追記します。
-  カンマ区切りで増やせます。
+  セミコロン区切りで増やせます。
 
   ファイル名|altに使う短い説明|表示するキャプション
 
