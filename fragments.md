@@ -124,8 +124,8 @@ permalink: /fragments/
      class="glightbox"
      data-gallery="fragments"
      data-title="{{ first_fragment[2] }}"
-     data-description="<span class='fragment-note'>{{ first_fragment[1] }}</span><span class='fragment-exif'>撮影情報を読み込み中</span>">
-    <img src="{{ '/assets/images/fragments/' | append: first_fragment[0] | relative_url }}" alt="{{ first_fragment[1] }}">
+     data-description="<span class='fragment-note'>{{ first_fragment[1] }}</span>">
+    <img src="{{ '/assets/images/fragments/' | append: first_fragment[0] | relative_url }}" alt="{{ first_fragment[1] }}" loading="eager" fetchpriority="high" decoding="async">
   </a>
   <figcaption>{{ first_fragment[2] }}</figcaption>
 </figure>
@@ -138,8 +138,8 @@ permalink: /fragments/
          class="glightbox"
          data-gallery="fragments"
          data-title="{{ fragment[2] }}"
-         data-description="<span class='fragment-note'>{{ fragment[1] }}</span><span class='fragment-exif'>撮影情報を読み込み中</span>">
-        <img src="{{ '/assets/images/fragments/' | append: fragment[0] | relative_url }}" alt="{{ fragment[1] }}">
+         data-description="<span class='fragment-note'>{{ fragment[1] }}</span>">
+        <img src="{{ '/assets/images/fragments/' | append: fragment[0] | relative_url }}" alt="{{ fragment[1] }}" loading="lazy" decoding="async">
       </a>
       <figcaption>{{ fragment[2] }}</figcaption>
     </figure>
@@ -153,53 +153,17 @@ permalink: /fragments/
 
   画像ファイルは /assets/images/fragments/ に置く想定です。
   GLightboxにより、写真クリックで拡大表示され、左右の矢印で移動できます。
-  EXIFが画像に残っていれば、F値・シャッタースピード・ISO・焦点距離を自動表示します。
+  撮影情報を表示したい場合は、キャプションや説明欄に手入力する運用が安定します。
   -->
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/exifr/dist/lite.umd.js"></script>
 <script>
-  function formatExposureTime(value) {
-    if (!value) return null;
-    if (value >= 1) return `${Number(value.toFixed(1))}s`;
-    return `1/${Math.round(1 / value)}s`;
-  }
-
-  function formatExif(exif) {
-    if (!exif) return '撮影情報なし';
-
-    const camera = [exif.Make, exif.Model].filter(Boolean).join(' ').replace('NIKON CORPORATION ', 'Nikon ');
-    const fNumber = exif.FNumber ? `f/${Number(exif.FNumber).toFixed(1).replace('.0', '')}` : null;
-    const shutter = formatExposureTime(exif.ExposureTime);
-    const iso = exif.ISO ? `ISO ${exif.ISO}` : null;
-    const focalLength = exif.FocalLength ? `${Number(exif.FocalLength).toFixed(0)}mm` : null;
-
-    return [camera, fNumber, shutter, iso, focalLength].filter(Boolean).join(' · ') || '撮影情報なし';
-  }
-
-  async function setupFragmentsLightbox() {
-    const links = Array.from(document.querySelectorAll('.glightbox'));
-
-    await Promise.all(links.map(async (link) => {
-      const note = link.querySelector('img')?.alt || '';
-
-      try {
-        const exif = await exifr.parse(link.href, ['Make', 'Model', 'FNumber', 'ExposureTime', 'ISO', 'FocalLength']);
-        link.dataset.description = `<span class="fragment-note">${note}</span><span class="fragment-exif">${formatExif(exif)}</span>`;
-      } catch (error) {
-        link.dataset.description = `<span class="fragment-note">${note}</span><span class="fragment-exif">撮影情報なし</span>`;
-      }
-    }));
-
-    GLightbox({
-      selector: '.glightbox',
-      touchNavigation: true,
-      loop: true,
-      zoomable: true,
-      draggable: true
-    });
-  }
-
-  setupFragmentsLightbox();
+  GLightbox({
+    selector: '.glightbox',
+    touchNavigation: true,
+    loop: true,
+    zoomable: true,
+    draggable: true
+  });
 </script>
