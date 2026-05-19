@@ -138,7 +138,7 @@ permalink: /fragments/
   日々の途中で目に留まった光と影、空気感、街角の断片を置いておくためのページです。
 </p>
 
-{% assign fragments = "2026-05-16-evening.jpg|夕暮れの街路樹と歩道|Evening 2026-05-16|f/3.5 · 1/60 · ISO 5000 · 16mm;2026-05-15-jiaozi.jpg|羽根つき餃子|Jiaozi 2026-05-15|f/5.3 · 1/125 · ISO 900 · 36mm;2026-05-15-river.jpg|昼の川辺|River 2026-05-15|f/7.1 · 1/400 · ISO 100 · 28mm;2026-05-16-kaisendon.jpg|海鮮丼|Kaisendon 2026-05-16|f/3.8 · 1/125 · ISO 3200 · 20mm;2026-05-16-pizza.jpg|食卓のピザ|Pizza 2026-05-16|f/4.2 · 1/125 · ISO 800 · 23mm;2026-05-16-river.jpg|夕方の水路|River 2026-05-16|f/3.5 · 1/30 · ISO 12800 · 16mm;2026-05-17-qingjiao-rousi.jpg|青椒肉絲|Qingjiao Rousi 2026-05-17|f/5 · 1/125 · ISO 3200 · 32mm;2026-05-17-sawara.jpg|鰆の皿|Sawara 2026-05-17|f/5.3 · 1/80 · ISO 3200 · 37mm;2026-05-17-tortoise.jpg|水槽の亀|Tortoise 2026-05-17|f/6.3 · 1/60 · ISO 8000 · 50mm" | split: ";" %}
+{% assign fragments = "2026-05-16-evening.jpg|風が心地よい|夕暮れの街路樹と歩道|f/3.5 · 1/60 · ISO 5000 · 16mm;2026-05-15-jiaozi.jpg|ぶらり入店した町中華の餃子|羽付き餃子|f/5.3 · 1/125 · ISO 900 · 36mm;2026-05-15-river.jpg|水面は静かに揺れている|昼の川辺|f/7.1 · 1/400 · ISO 100 · 28mm;2026-05-16-kaisendon.jpg|生しらすとねぎとろの幸せ|海鮮丼|f/3.8 · 1/125 · ISO 3200 · 20mm;2026-05-16-pizza.jpg|サイゼリヤときたらいつもこれ|きのこと野菜のピザ|f/4.2 · 1/125 · ISO 800 · 23mm;2026-05-16-river.jpg|初夏の気配漂う|夕方の水路|f/3.5 · 1/30 · ISO 12800 · 16mm;2026-05-17-qingjiao-rousi.jpg|お手軽中華料理|青椒肉絲|f/5 · 1/125 · ISO 3200 · 32mm;2026-05-17-sawara.jpg|旬の魚を楽しむ喜び|鰆の塩焼き|f/5.3 · 1/80 · ISO 3200 · 37mm;2026-05-17-tortoise.jpg|わたしの大切な家族|クサガメ|f/6.3 · 1/60 · ISO 8000 · 50mm" | split: ";" %}
 {% assign first_fragment = fragments | first | split: "|" %}
 
 <figure class="fragments-hero">
@@ -146,7 +146,7 @@ permalink: /fragments/
      class="glightbox"
      data-gallery="fragments"
      data-description="<span class='fragment-caption'><span class='fragment-title'>{{ first_fragment[2] }}</span><span class='fragment-note'>{{ first_fragment[1] }}</span><span class='fragment-exif'>{{ first_fragment[3] }}</span></span>">
-    <img src="{{ '/assets/images/fragments/' | append: first_fragment[0] | relative_url }}" alt="{{ first_fragment[1] }}" loading="eager" fetchpriority="high" decoding="async">
+    <img src="{{ '/assets/images/fragments/' | append: first_fragment[0] | relative_url }}" alt="{{ first_fragment[2] }}" loading="eager" fetchpriority="high" decoding="async">
   </a>
   <figcaption>{{ first_fragment[2] }}</figcaption>
 </figure>
@@ -159,7 +159,7 @@ permalink: /fragments/
          class="glightbox"
          data-gallery="fragments"
          data-description="<span class='fragment-caption'><span class='fragment-title'>{{ fragment[2] }}</span><span class='fragment-note'>{{ fragment[1] }}</span><span class='fragment-exif'>{{ fragment[3] }}</span></span>">
-        <img src="{{ '/assets/images/fragments/' | append: fragment[0] | relative_url }}" alt="{{ fragment[1] }}" loading="lazy" decoding="async">
+        <img src="{{ '/assets/images/fragments/' | append: fragment[0] | relative_url }}" alt="{{ fragment[2] }}" loading="lazy" decoding="async">
       </a>
       <figcaption>{{ fragment[2] }}</figcaption>
     </figure>
