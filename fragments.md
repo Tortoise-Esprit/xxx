@@ -8,10 +8,20 @@ permalink: /fragments/
 
 <style>
 .fragments-intro {
-  margin: 0 auto 2rem;
+  margin: 0 auto 1rem;
   max-width: 42rem;
   color: #666;
   line-height: 1.9;
+}
+
+.fragments-equipment {
+  margin: 0 auto 2rem;
+  max-width: 42rem;
+  color: #888;
+  font-size: 0.82rem;
+  line-height: 1.7;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .fragments-hero {
@@ -128,6 +138,10 @@ permalink: /fragments/
     color: #aaa;
   }
 
+  .fragments-equipment {
+    color: #999;
+  }
+
   .fragments-grid a {
     background: #222;
   }
@@ -136,6 +150,10 @@ permalink: /fragments/
 
 <p class="fragments-intro">
   日々の途中で目に留まった光と影、空気感、街角の断片を置いておくためのページです。
+</p>
+
+<p class="fragments-equipment">
+  Photographed with Nikon Z fc and NIKKOR Z DX 16-50mm f/3.5-6.3 VR.
 </p>
 
 {% assign fragments = "2026-05-16-evening.jpg|風が心地よい|夕暮れの街路樹と歩道|f/3.5 · 1/60 · ISO 5000 · 16mm;2026-05-15-jiaozi.jpg|ぶらり入店した町中華の餃子|羽付き餃子|f/5.3 · 1/125 · ISO 900 · 36mm;2026-05-15-river.jpg|水面は静かに揺れている|昼の川辺|f/7.1 · 1/400 · ISO 100 · 28mm;2026-05-16-kaisendon.jpg|生しらすとねぎとろの幸せ|海鮮丼|f/3.8 · 1/125 · ISO 3200 · 20mm;2026-05-16-pizza.jpg|サイゼリヤときたらいつもこれ|きのこと野菜のピザ|f/4.2 · 1/125 · ISO 800 · 23mm;2026-05-16-river.jpg|初夏の気配漂う|夕方の水路|f/3.5 · 1/30 · ISO 12800 · 16mm;2026-05-17-qingjiao-rousi.jpg|お手軽中華料理|青椒肉絲|f/5 · 1/125 · ISO 3200 · 32mm;2026-05-17-sawara.jpg|旬の魚を楽しむ喜び|鰆の塩焼き|f/5.3 · 1/80 · ISO 3200 · 37mm;2026-05-17-tortoise.jpg|わたしの大切な家族|クサガメ|f/6.3 · 1/60 · ISO 8000 · 50mm" | split: ";" %}
