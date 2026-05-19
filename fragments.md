@@ -86,6 +86,15 @@ permalink: /fragments/
   color: #777;
 }
 
+.fragments-copyright {
+  margin: 2.5rem auto 0;
+  max-width: 42rem;
+  color: #999;
+  font-size: 0.78rem;
+  line-height: 1.7;
+  text-align: center;
+}
+
 .fragment-caption {
   display: block;
   font-family: "Hiragino Mincho ProN", "Yu Mincho", "YuMincho", "Noto Serif JP", serif;
@@ -138,7 +147,8 @@ permalink: /fragments/
     color: #aaa;
   }
 
-  .fragments-equipment {
+  .fragments-equipment,
+  .fragments-copyright {
     color: #999;
   }
 
@@ -197,6 +207,10 @@ permalink: /fragments/
   撮影情報は、位置情報を含めず、表示したい項目だけ手入力する運用が安全です。
   -->
 </div>
+
+<p class="fragments-copyright">
+  掲載写真の無断転載・無断使用を禁じます。
+</p>
 
 <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
 <script>
