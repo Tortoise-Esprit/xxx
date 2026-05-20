@@ -1,6 +1,8 @@
 ---
 ---
 
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;600;700&display=swap");
+
 @import "minima";
 
 /* ==============================
@@ -28,7 +30,7 @@
 
 body {
   font-family:
-    "Gill Sans", "Gill Sans MT", "ヒラギノ明朝 ProN", "Hiragino Mincho ProN",
+    "Gill Sans", "Gill Sans MT", "Noto Serif JP", "ヒラギノ明朝 ProN", "Hiragino Mincho ProN",
     "游明朝", "Yu Mincho",
     serif;
 }
@@ -392,7 +394,7 @@ body {
 }
 
 .home-gateway-link {
-  font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "游明朝", "Yu Mincho", serif;
+  font-family: "Noto Serif JP", "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "游明朝", "Yu Mincho", serif;
   letter-spacing: 0.04em;
 }
 
