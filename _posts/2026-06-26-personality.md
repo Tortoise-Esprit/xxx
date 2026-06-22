@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "パーソナリティについて"
+title: "パーソナリティ"
 date: 2026-06-26
 published: false
 excerpt: ""
