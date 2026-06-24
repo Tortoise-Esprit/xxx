@@ -6,6 +6,17 @@ published: false
 excerpt: "人格とパーソナリティは同じなのか。精神医学の古典に、現代のパーソナリティ症概念の輪郭を探る。"
 description: "人格、パーソナリティ、精神病質。辞書的な語義と精神医学の古典を手がかりに、パーソナリティ症をめぐる誤解と、その概念に潜む緊張を考える。"
 ---
+
+<div class="series-box">
+  <span class="series-box-label">Series</span>
+  <p class="series-box-title">パーソナリティの考古学</p>
+  <ol>
+    <li><span class="series-box-current">パーソナリティの考古学 (I)</span></li>
+    <li><a href="#">パーソナリティの考古学 (II)</a></li>
+    <li><a href="#">パーソナリティの考古学 (III)</a></li>
+  </ol>
+</div>
+
 ## 人格=パーソナリティ
 
 人格という言葉は存外に興味深い。大辞林を引くと、
