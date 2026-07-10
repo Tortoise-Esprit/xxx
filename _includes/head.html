@@ -14,10 +14,12 @@
 <meta name="twitter:image" content="https://tortoise-esprit.com/assets/ogp/ogp-default.png">
 
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  {%- if page.url == '/fragments/' -%}
+    <link rel="stylesheet" href="{{ '/assets/fragments-hero.css' | relative_url }}">
+  {%- endif -%}
   {%- feed_meta -%}
 
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}
 </head>
-
