@@ -191,7 +191,7 @@ permalink: /fragments/
       <a href="{{ '/assets/images/fragments/' | append: fragment[0] | relative_url }}"
          class="glightbox"
          data-gallery="fragments"
-         data-description="<span class='fragment-caption'><span class='fragment-title'>{{ fragment[2] }}</span><span class='fragment-note'>{{ fragment[1] }}</span><span class='fragment-exif'>{{ fragment[3] }}</span></span>">
+         data-description="<span class='fragment-caption'><span class='fragment-title'>{{ fragment[2] }}</span>{% if fragment[3] and fragment[3] != '' %}<span class='fragment-exif'>{{ fragment[3] }}</span>{% endif %}</span>">
         <img src="{{ '/assets/images/fragments/' | append: fragment[0] | relative_url }}" alt="{{ fragment[2] }}" loading="lazy" decoding="async">
       </a>
       <figcaption>{{ fragment[2] }}</figcaption>
