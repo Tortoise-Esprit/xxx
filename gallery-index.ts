@@ -6,6 +6,8 @@ import { galleryBatch0662To0684 } from "./gallery-batches/gallery_0662_0684";
 import { galleryBatch0685To0709 } from "./gallery-batches/gallery_0685_0709";
 import { galleryBatch0710To0738 } from "./gallery-batches/gallery_0710_0738";
 import { galleryBatch0739To0758 } from "./gallery-batches/gallery_0739_0758";
+import { galleryBatch0759To0781 } from "./gallery-batches/gallery_0759_0781";
+import { galleryBatch0782To0812 } from "./gallery-batches/gallery_0782_0812";
 
 export const allGallery = [
   ...galleryBatch0275To0424,
@@ -16,4 +18,6 @@ export const allGallery = [
   ...galleryBatch0685To0709,
   ...galleryBatch0710To0738,
   ...galleryBatch0739To0758,
+  ...galleryBatch0759To0781,
+  ...galleryBatch0782To0812,
 ];
