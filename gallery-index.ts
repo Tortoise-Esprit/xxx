@@ -9,6 +9,7 @@ import { galleryBatch0739To0758 } from "./gallery-batches/gallery_0739_0758";
 import { galleryBatch0759To0781 } from "./gallery-batches/gallery_0759_0781";
 import { galleryBatch0782To0812 } from "./gallery-batches/gallery_0782_0812";
 import { galleryBatch0813To0835 } from "./gallery-batches/gallery_0813_0835";
+import { galleryBatch0836To0860 } from "./gallery-batches/gallery_0836_0860";
 
 export const allGallery = [
   ...galleryBatch0275To0424,
@@ -22,4 +23,5 @@ export const allGallery = [
   ...galleryBatch0759To0781,
   ...galleryBatch0782To0812,
   ...galleryBatch0813To0835,
+  ...galleryBatch0836To0860,
 ];
