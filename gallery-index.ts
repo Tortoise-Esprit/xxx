@@ -14,7 +14,41 @@ import { galleryBatch0861To0885 } from "./gallery-batches/gallery_0861_0885";
 import { galleryBatch0886To0911 } from "./gallery-batches/gallery_0886_0911";
 import { galleryBatch0914To0929 } from "./gallery-batches/gallery_0914_0929";
 
-export const allGallery = [
+const selectedPhotoIds = new Set([
+  "DSC_0287",
+  "DSC_0336",
+  "DSC_0346",
+  "DSC_0360",
+  "DSC_0371",
+  "DSC_0405",
+  "DSC_0519",
+  "DSC_0622",
+  "DSC_0635",
+  "DSC_0650",
+  "DSC_0724",
+  "DSC_0743",
+  "DSC_0759",
+  "DSC_0777",
+  "DSC_0790",
+  "DSC_0818",
+  "DSC_0823",
+  "DSC_0835",
+  "DSC_0836",
+  "DSC_0849",
+  "DSC_0851",
+  "DSC_0856",
+  "DSC_0857",
+  "DSC_0883",
+  "DSC_0899",
+  "DSC_0916",
+  "DSC_0918",
+  "DSC_0920",
+  "DSC_0927",
+  "DSC_0928",
+  "DSC_0929",
+]);
+
+const gallerySource = [
   ...galleryBatch0275To0424,
   ...galleryBatch0427To0561,
   ...galleryBatch0571To0632,
@@ -31,3 +65,8 @@ export const allGallery = [
   ...galleryBatch0886To0911,
   ...galleryBatch0914To0929,
 ];
+
+export const allGallery = gallerySource.map((item) => ({
+  ...item,
+  visible: selectedPhotoIds.has(item.id),
+}));
