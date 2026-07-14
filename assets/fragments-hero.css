@@ -7,11 +7,4 @@
   border-radius: 0;
 }
 
-@media (max-width: 640px) {
-  .fragments-hero {
-    height: 56.25vw;
-    min-height: 0;
-    margin-bottom: 2.25rem !important;
-    background-position: center 42%;
-  }
-}
+
