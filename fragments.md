@@ -170,18 +170,13 @@ permalink: /fragments/
 
 {% assign fragments = "fragments/hero.webp|静かな水平線|海と空のあわい|originals/DSC_0287.JPG|低い雲の下に海岸線が霞む|霧の海岸|f/9 · 1/640 · ISO 100 · 28mm;originals/DSC_0346.JPG|白い岩礁と岬を見渡す|岬の海岸線|f/6.3 · 1/320 · ISO 100 · 32.5mm;originals/DSC_0360.JPG|厚い雲の裂け目から光が落ちる|雲間の光|f/11 · 1/1000 · ISO 100 · 16mm;originals/DSC_0371.JPG|岩礁と道が海へ沿って続く|海岸の曲線|f/7.1 · 1/400 · ISO 100 · 29mm;originals/DSC_0372.JPG|海を望む岬に一本の木が立つ|岬の一本木|f/9 · 1/640 · ISO 100 · 24.5mm;originals/DSC_0405.JPG|白い岩の上で休むアザラシたち|岩場のアザラシ|f/6.3 · 1/250 · ISO 160 · 50mm;originals/DSC_0519.JPG|船のそばを二頭のイルカが進む|イルカの並走|f/6.3 · 1/2000 · ISO 2000 · 50mm;originals/DSC_0595.JPG|波立つ海面から海鳥が飛び立つ|飛び立つ海鳥|f/16 · 1/2000 · ISO 1600 · 50mm;originals/DSC_0635.JPG|山影の前に白い息が立ち上がる|鯨の息|f/13 · 1/1000 · ISO 1600 · 50mm;originals/DSC_0650.JPG|丸い葉のあいだに紫の花が集まる|紫の花房|f/6 · 1/125 · ISO 800 · 46mm;originals/DSC_0729.JPG|海辺の青い小屋の屋根に海鳥が並ぶ|Nin’s Bin|f/9 · 1/640 · ISO 100 · 27.5mm;originals/DSC_0743.JPG|澄んだ空に国旗が揺れる|青空の旗|f/6.3 · 1/320 · ISO 100 · 50mm;originals/DSC_0759.JPG|海霧の向こうに雪山が連なる|朝の黒い浜|f/8 · 1/500 · ISO 100 · 33mm;originals/DSC_0769.JPG|濃い葉のあいだに黄色い花が二輪咲く|冬の黄色|f/5.6 · 1/250 · ISO 180 · 26.5mm;originals/DSC_0777.JPG|丘の上から海岸線と曲がる道を見下ろす|海へ下る道|f/9 · 1/640 · ISO 100 · 38mm;originals/DSC_0790.JPG|低い太陽と山並みを草地越しに見る|冬の草原|f/9 · 1/640 · ISO 100 · 24mm;originals/DSC_0792.JPG|青空へ高く伸びた木が風に傾く|風の木|f/5.6 · 1/250 · ISO 125 · 16mm;originals/DSC_0818.JPG|浜辺に組まれた流木が夕空に立つ|流木のかたち|f/5.6 · 1/250 · ISO 110 · 16mm;originals/DSC_0823.JPG|岩の上で海を眺める一頭|海辺のアザラシ|f/6.3 · 1/250 · ISO 360 · 50mm;originals/DSC_0835.JPG|細い雲の下に雪山が静かに横たわる|山並みと夕空|f/6.3 · 1/250 · ISO 100 · 50mm;originals/DSC_0836.JPG|夕暮れの空と雪をまとった稜線|山の稜線|f/7.1 · 1/400 · ISO 100 · 50mm;originals/DSC_0838.JPG|夕空の下で岩礁と海が静かに広がる|海辺の薄明|f/5.6 · 1/250 · ISO 200 · 17.5mm;originals/DSC_0849.JPG|博物館の映像展示に波の写真が連なる|波の記憶|f/5.6 · 1/250 · ISO 160 · 16mm;originals/DSC_0851.JPG|広い空の下に黒い礫浜が伸びる|黒い浜と青空|f/8 · 1/500 · ISO 100 · 19.5mm;originals/DSC_0856.JPG|風に巻き上げられた海霧が山裾を覆う|海霧の山影|f/25 · 1/1000 · ISO 1000 · 47mm;originals/DSC_0883.JPG|木と光の線が重なる吹き抜け|図書館の天井|f/3.5 · 1/160 · ISO 400 · 16mm;originals/DSC_0899.JPG|濡れた街路が丘へ向かって伸びる|雨の坂道|f/5.6 · 1/250 · ISO 180 · 19mm;originals/DSC_0905.JPG|大きく枝を広げた木が芝生を覆う|大樹の枝|f/4 · 1/250 · ISO 400 · 16mm;originals/DSC_0916.JPG|濡れた歩道に街の灯りが映る|雨上がりの街|f/3.5 · 1/160 · ISO 400 · 16mm;originals/DSC_0918.JPG|光の差す街を車が横切る|車窓の青|f/6.3 · 1/320 · ISO 100 · 26mm;originals/DSC_0927.JPG|港の上に暗い雨雲が垂れ込める|港の雨雲|f/6.3 · 1/320 · ISO 100 · 20.5mm" | split: ";" %}
 
+
 <figure class="fragments-hero">
-  <video
-    class="fragments-hero-video"
-    autoplay
-    muted
-    loop
-    playsinline
-    preload="metadata"
-    aria-label="海と空のあわい">
-    <source src="{{ '/assets/videos/fragments/DSC_0310_blog_light_6s.mp4' | relative_url }}" type="video/mp4">
-  </video>
-  <figcaption>海と空のあわい</figcaption>
+  <img
+    src="{{ '/assets/images/fragments/kaikoura_hero.JPG' | relative_url }}"
+    alt="Kaikōura"
+    loading="eager"
+    decoding="async">
 </figure>
 
 <div class="fragments-grid">
