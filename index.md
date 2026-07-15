@@ -77,7 +77,7 @@ list_title: Recent Essays
 
 <section class="home-gateway">
   <div class="home-gateway-kicker">New to Esprit?</div>
-  <h2>はじめてお越しの方へ</h2>
+  <h1>はじめてお越しの方へ</h1>
   <p>
     精神病理学、哲学、人文学を手がかりに、こころの体験の成り立ちを考えるサイトです。
   </p>
