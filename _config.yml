@@ -5,6 +5,9 @@ excerpt: Essays on thought and experience
 description: 精神病理学、哲学、人文学を手がかりに、こころの体験の成り立ちを考える個人サイトです。
 url: "https://tortoise-esprit.com"
 baseurl: ""
+lang: ja-JP
+author:
+  name: Esprit
 
 timezone: Asia/Tokyo
 
@@ -14,6 +17,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-paginate
+  - jekyll-sitemap
 
 paginate: 10
 paginate_path: "/page:num"
