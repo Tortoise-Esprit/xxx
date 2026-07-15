@@ -156,6 +156,8 @@ permalink: /fragments/
   <img
     src="{{ '/assets/images/fragments/kaikoura_hero.JPG' | relative_url }}"
     alt="Kaikōuraの海岸と雪山"
+    width="5567"
+    height="1818"
     loading="eager"
     decoding="async">
 </figure>
