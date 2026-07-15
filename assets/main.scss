@@ -610,6 +610,28 @@ body {
    Keyboard focus, mobile navigation target, and reduced motion
 ============================== */
 
+.skip-link {
+  position: absolute;
+  top: 0;
+  left: 1rem;
+  z-index: 1000;
+  padding: 0.65rem 1rem;
+  border: 1px solid var(--esprit-border);
+  background: var(--esprit-bg);
+  color: var(--esprit-text);
+  transform: translateY(-150%);
+}
+
+.skip-link:focus {
+  color: var(--esprit-text);
+  text-decoration: none;
+  transform: translateY(0.75rem);
+}
+
+#main-content {
+  scroll-margin-top: 1rem;
+}
+
 :focus-visible {
   outline: 2px solid #8a7352;
   outline-offset: 3px;
