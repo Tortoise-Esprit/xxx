@@ -30,7 +30,7 @@ list_title: Recent Essays
   right: 2rem;
   width: 220px;
   height: 220px;
-  background-image: url("/assets/img/logo-t.png");
+  background-image: url("/assets/img/logo-t-512.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
