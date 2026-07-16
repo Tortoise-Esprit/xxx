@@ -76,18 +76,18 @@ body {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #111 !important;
-    color: #e6e6e6;
+    background-color: var(--esprit-bg) !important;
+    color: var(--esprit-text);
   }
 
   a {
-    color: #9ecbff;
+    color: var(--esprit-link);
   }
   a:visited {
-    color: #8ab4a6;
+    color: var(--esprit-visited);
   }
   a:hover {
-    color: #cfe8ff;
+    color: var(--esprit-hover);
   }
 
   /* ヘッダー/フッター（minimaのクラスに合わせて広めに指定） */
@@ -95,14 +95,14 @@ body {
   .site-footer,
   header,
   footer {
-    background-color: #0d0d0d;
+    background-color: var(--esprit-bg);
     border-color: #222;
   }
 
   /* 記事本文まわり */
   .page-content,
   .post-content {
-    color: #e6e6e6;
+    color: var(--esprit-text);
   }
 
   /* 古い引用調整。後半の readable quotes が現在の主指定 */
@@ -135,12 +135,12 @@ body {
   pre,
   code,
   .highlight {
-    background-color: #1e1e1e;
+    background-color: var(--esprit-surface);
   }
 
   /* 罫線 */
   hr {
-    border-color: #333;
+    border-color: var(--esprit-border);
   }
 }
 
@@ -150,45 +150,45 @@ body {
   .site-title:visited,
   .site-nav .page-link,
   .site-nav .page-link:visited {
-    color: #e6e6e6 !important;
+    color: var(--esprit-text) !important;
   }
 
   .site-nav .page-link:hover {
-    color: #ffffff !important;
+    color: var(--esprit-hover) !important;
     text-decoration: underline;
   }
 
   /* ハンバーガー（スマホ用）も見えるように */
   .site-nav .menu-icon svg path {
-    fill: #e6e6e6 !important;
+    fill: var(--esprit-text) !important;
   }
 }
 
 @media (prefers-color-scheme: dark) {
   /* スマホのドロップダウン（白い箱）をダークに */
   .site-nav .trigger {
-    background-color: #0d0d0d !important;
+    background-color: var(--esprit-bg) !important;
     border: 1px solid #222 !important;
   }
 
   /* スマホメニュー内リンク文字 */
   .site-nav .trigger a,
   .site-nav .trigger a:visited {
-    color: #e6e6e6 !important;
+    color: var(--esprit-text) !important;
   }
 
   .site-nav .trigger a:hover {
-    color: #ffffff !important;
+    color: var(--esprit-hover) !important;
   }
    /* ハンバーガー（三本線）をはっきりさせる */
   .site-nav .menu-icon svg path {
-    stroke: #111;
+    stroke: var(--esprit-text);
     stroke-width: 1.5;
   }
 
   /* 押したとき・ホバー時に少しだけ強く */
   .site-nav .menu-icon:hover svg path {
-    stroke: #ffffff;
+    stroke: var(--esprit-hover);
   }
   }
 
@@ -327,15 +327,21 @@ body {
   --esprit-text: #171717;
   --esprit-muted: #6f6a64;
   --esprit-border: #d8d1c9;
+  --esprit-accent: #8a7352;
   --esprit-nav-bg: transparent;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --esprit-bg: #0f0f0f;
-    --esprit-text: #f2f2f2;
-    --esprit-muted: #9a9a9a;
-    --esprit-border: #333333;
+    --esprit-bg: #1d1b19;
+    --esprit-text: #d6d0c8;
+    --esprit-muted: #aaa299;
+    --esprit-border: #3b3732;
+    --esprit-accent: #bda67d;
+    --esprit-link: #bda67d;
+    --esprit-visited: #aaa299;
+    --esprit-hover: #d6c19a;
+    --esprit-surface: #25221f;
     --esprit-nav-bg: transparent;
   }
 }
@@ -400,7 +406,7 @@ body {
 
 @media (prefers-color-scheme: dark) {
   .home-gateway-kicker {
-    color: #b49a6c;
+    color: var(--esprit-accent);
   }
 }
 
@@ -436,7 +442,7 @@ body {
 @media (prefers-color-scheme: dark) {
   .post-content blockquote,
   .page-content blockquote {
-    border-left-color: #b49a6c;
+    border-left-color: var(--esprit-accent);
     background: rgba(255, 255, 255, 0.04);
     color: inherit;
   }
@@ -482,12 +488,12 @@ body {
 
 @media (prefers-color-scheme: dark) {
   .case-box {
-    border-left-color: #b49a6c;
+    border-left-color: var(--esprit-accent);
     background: rgba(255, 255, 255, 0.04);
   }
 
   .case-box-label {
-    color: #b49a6c;
+    color: var(--esprit-accent);
   }
 }
 
@@ -534,12 +540,12 @@ body {
 
 @media (prefers-color-scheme: dark) {
   .exam-box {
-    border-left-color: #b49a6c;
+    border-left-color: var(--esprit-accent);
     background: rgba(255, 255, 255, 0.035);
   }
 
   .exam-box-label {
-    color: #b49a6c;
+    color: var(--esprit-accent);
   }
 }
 
@@ -595,12 +601,12 @@ body {
 
 @media (prefers-color-scheme: dark) {
   .series-box {
-    border-left-color: #b49a6c;
+    border-left-color: var(--esprit-accent);
     background: rgba(255, 255, 255, 0.035);
   }
 
   .series-box-label {
-    color: #b49a6c;
+    color: var(--esprit-accent);
   }
 }
 
@@ -639,7 +645,7 @@ body {
 
 @media (prefers-color-scheme: dark) {
   :focus-visible {
-    outline-color: #d0b783;
+    outline-color: var(--esprit-accent);
   }
 }
 
@@ -681,7 +687,7 @@ body {
 
 @media (prefers-color-scheme: dark) and (max-width: 600px) {
   .site-nav .nav-trigger:focus-visible + label {
-    outline-color: #d0b783;
+    outline-color: var(--esprit-accent);
   }
 }
 
@@ -710,4 +716,74 @@ body {
   .footer-description {
     color: var(--esprit-muted);
   }
+}
+
+
+/* ==============================
+   12. Start Here pathways
+   Quiet reading entrances and a compact English guide
+============================== */
+
+.start-intro {
+  max-width: 42em;
+  margin-bottom: 2.5rem;
+  line-height: 1.9;
+}
+
+.start-paths {
+  margin: 2.5rem 0;
+  border-top: 1px solid var(--esprit-border);
+}
+
+.start-path {
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--esprit-border);
+}
+
+.page-content .start-path h2 {
+  margin: 0 0 0.65rem;
+  color: var(--esprit-accent);
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.start-path p {
+  max-width: 42em;
+  margin-bottom: 1rem;
+}
+
+.start-path ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.start-path li + li {
+  margin-top: 0.55rem;
+}
+
+.start-english {
+  max-width: 42em;
+  margin-top: 2.5rem;
+  color: var(--esprit-muted);
+}
+
+.start-english summary {
+  cursor: pointer;
+  color: var(--esprit-text);
+  font-family: "Gill Sans", "Gill Sans MT", "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.page-content .start-english h2 {
+  margin-top: 1.8rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--esprit-text);
+}
+
+.start-english p {
+  margin-bottom: 1rem;
+  line-height: 1.8;
 }
