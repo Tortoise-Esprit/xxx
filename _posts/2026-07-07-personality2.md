@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "パーソナリティの考古学 (II)" 
-date: 2026-07-07
+date: 2026-07-19
 published: false
 excerpt: ""
 description: ""
