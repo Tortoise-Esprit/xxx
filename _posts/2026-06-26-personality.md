@@ -12,7 +12,7 @@ description: "人格、パーソナリティ、精神病質。辞書的な語義
   <p class="series-box-title">パーソナリティの考古学</p>
   <ol>
     <li><span class="series-box-current">パーソナリティの考古学 I</span></li>
-    <li><a href="#">パーソナリティの考古学 II</a></li>
+    <li><a href="https://tortoise-esprit.com/2026/07/19/personality2.html">パーソナリティの考古学 II</a></li>
     <li><a href="#">パーソナリティの考古学 III</a></li>
   </ol>
 </div>
