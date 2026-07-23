@@ -327,7 +327,7 @@ body {
   --esprit-text: #171717;
   --esprit-muted: #6f6a64;
   --esprit-border: #d8d1c9;
-  --esprit-accent: #8a7352;
+  --esprit-accent: #806948;
   --esprit-nav-bg: transparent;
 }
 
@@ -366,6 +366,77 @@ body {
 }
 
 /* ==============================
+   5.5. Atmospheric theme backgrounds
+   Light: a continuous quiet dawn from the top of the page.
+   Dark: a viewport-wide black-brown to navy transition.
+============================== */
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: var(--esprit-bg);
+    background-image:
+      radial-gradient(
+        ellipse at 18% 0%,
+        rgba(218, 170, 137, 0.14),
+        transparent 62%
+      ),
+      radial-gradient(
+        ellipse at 82% 0%,
+        rgba(166, 167, 190, 0.105),
+        transparent 59%
+      ),
+      linear-gradient(
+        to bottom,
+        rgba(218, 170, 137, 0.032),
+        transparent 100%
+      );
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% 36rem;
+  }
+
+  .site-header {
+    background: transparent;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #101827 !important;
+    background-image:
+      radial-gradient(
+        ellipse at 50% 112%,
+        rgba(29, 55, 92, 0.42) 0%,
+        transparent 64%
+      ),
+      linear-gradient(
+        to bottom,
+        #1d1b19 0%,
+        #192236 48%,
+        #101827 100%
+      );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100vh;
+    background-attachment: fixed;
+  }
+
+  .site-header,
+  .site-footer,
+  header,
+  footer {
+    background-color: transparent;
+    background-image: none;
+  }
+}
+
+@media print, (forced-colors: active) {
+  body {
+    background-image: none !important;
+  }
+}
+
+/* ==============================
    6. Home gateway
    トップページの入口案内
 ============================== */
@@ -382,7 +453,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.12em;
   font-size: 0.78rem;
-  color: #8a7352;
+  color: var(--esprit-accent);
   margin-bottom: 0.8rem;
 }
 
@@ -424,7 +495,7 @@ body {
   letter-spacing: normal;
   margin: 2rem 0;
   padding: 1rem 1.25rem;
-  border-left: 3px solid #8a7352;
+  border-left: 3px solid var(--esprit-accent);
   background: rgba(255, 255, 255, 0.18);
   color: inherit;
 }
@@ -457,7 +528,7 @@ body {
   margin: 2.2rem 0;
   padding: 1.25rem 1.4rem;
   border: 1px solid var(--esprit-border);
-  border-left: 4px solid #8a7352;
+  border-left: 4px solid var(--esprit-accent);
   background: rgba(255, 255, 255, 0.20);
 }
 
@@ -468,7 +539,7 @@ body {
   font-size: 0.78rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #8a7352;
+  color: var(--esprit-accent);
 }
 
 .case-box-title {
@@ -506,7 +577,7 @@ body {
   margin: 2.2rem 0;
   padding: 1.25rem 1.4rem;
   border: 1px solid var(--esprit-border);
-  border-left: 4px solid #8a7352;
+  border-left: 4px solid var(--esprit-accent);
   background: rgba(255, 255, 255, 0.16);
 }
 
@@ -517,7 +588,7 @@ body {
   font-size: 0.78rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #8a7352;
+  color: var(--esprit-accent);
 }
 
 .exam-box-title {
@@ -558,7 +629,7 @@ body {
   margin: 1.4rem 0 2.4rem;
   padding: 1.15rem 1.35rem;
   border: 1px solid var(--esprit-border);
-  border-left: 4px solid #8a7352;
+  border-left: 4px solid var(--esprit-accent);
   background: rgba(255, 255, 255, 0.14);
 }
 
@@ -569,7 +640,7 @@ body {
   font-size: 0.76rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #8a7352;
+  color: var(--esprit-accent);
 }
 
 .series-box-title {
@@ -639,7 +710,7 @@ body {
 }
 
 :focus-visible {
-  outline: 2px solid #8a7352;
+  outline: 2px solid var(--esprit-accent);
   outline-offset: 3px;
 }
 
@@ -674,7 +745,7 @@ body {
   }
 
   .site-nav .nav-trigger:focus-visible + label {
-    outline: 2px solid #8a7352;
+    outline: 2px solid var(--esprit-accent);
     outline-offset: 3px;
   }
 
