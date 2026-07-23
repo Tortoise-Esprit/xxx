@@ -327,7 +327,7 @@ body {
   --esprit-text: #171717;
   --esprit-muted: #6f6a64;
   --esprit-border: #d8d1c9;
-  --esprit-accent: #8a7352;
+  --esprit-accent: #806948;
   --esprit-nav-bg: transparent;
 }
 
@@ -366,6 +366,144 @@ body {
 }
 
 /* ==============================
+   5.5. Atmospheric theme backgrounds
+   Light: a quiet dawn at the top.
+   Dark: a navy night sky and sparse starlight near the bottom.
+============================== */
+
+.page-content {
+  position: relative;
+  isolation: isolate;
+}
+
+.page-content > .wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+.page-content::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+@media (prefers-color-scheme: light) {
+  .page-content::before {
+    top: 0;
+    height: clamp(20rem, 42vw, 28rem);
+    background:
+      radial-gradient(
+        ellipse at 18% 0%,
+        rgba(218, 170, 137, 0.20),
+        transparent 60%
+      ),
+      radial-gradient(
+        ellipse at 82% 0%,
+        rgba(166, 167, 190, 0.15),
+        transparent 57%
+      ),
+      linear-gradient(
+        to bottom,
+        rgba(218, 170, 137, 0.045),
+        transparent 100%
+      );
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .page-content::before {
+    bottom: 0;
+    height: 36rem;
+    background-image:
+      radial-gradient(
+        circle at 17px 29px,
+        rgba(239, 228, 206, 0.72) 0 0.6px,
+        transparent 1.1px
+      ),
+      radial-gradient(
+        circle at 71px 43px,
+        rgba(255, 246, 224, 0.54) 0 0.9px,
+        transparent 1.4px
+      ),
+      radial-gradient(
+        circle at 113px 97px,
+        rgba(189, 166, 125, 0.52) 0 0.7px,
+        transparent 1.2px
+      ),
+      radial-gradient(
+        ellipse at 52% 100%,
+        rgba(20, 42, 72, 0.64) 0%,
+        rgba(17, 34, 58, 0.48) 48%,
+        transparent 78%
+      ),
+      linear-gradient(
+        to bottom,
+        transparent 0%,
+        rgba(18, 34, 57, 0.46) 52%,
+        rgba(13, 24, 42, 0.82) 100%
+      );
+    background-repeat:
+      repeat,
+      repeat,
+      repeat,
+      no-repeat,
+      no-repeat;
+    background-position:
+      0 0,
+      23px 41px,
+      71px 19px,
+      center,
+      center;
+    background-size:
+      83px 89px,
+      137px 149px,
+      229px 211px,
+      100% 100%,
+      100% 100%;
+    -webkit-mask-image: linear-gradient(
+      to bottom,
+      transparent 0%,
+      rgba(0, 0, 0, 0.55) 34%,
+      #000 48%,
+      #000 100%
+    );
+    mask-image: linear-gradient(
+      to bottom,
+      transparent 0%,
+      rgba(0, 0, 0, 0.55) 34%,
+      #000 48%,
+      #000 100%
+    );
+  }
+
+  .site-footer {
+    background:
+      linear-gradient(
+        to bottom,
+        #101827,
+        #0d1522
+      );
+    border-color: #2b3442;
+  }
+}
+
+@media screen and (max-width: 600px) and (prefers-color-scheme: dark) {
+  .page-content::before {
+    height: 30rem;
+  }
+}
+
+@media print, (forced-colors: active) {
+  .page-content::before {
+    display: none;
+  }
+}
+
+/* ==============================
    6. Home gateway
    トップページの入口案内
 ============================== */
@@ -382,7 +520,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.12em;
   font-size: 0.78rem;
-  color: #8a7352;
+  color: var(--esprit-accent);
   margin-bottom: 0.8rem;
 }
 
@@ -424,7 +562,7 @@ body {
   letter-spacing: normal;
   margin: 2rem 0;
   padding: 1rem 1.25rem;
-  border-left: 3px solid #8a7352;
+  border-left: 3px solid var(--esprit-accent);
   background: rgba(255, 255, 255, 0.18);
   color: inherit;
 }
@@ -457,7 +595,7 @@ body {
   margin: 2.2rem 0;
   padding: 1.25rem 1.4rem;
   border: 1px solid var(--esprit-border);
-  border-left: 4px solid #8a7352;
+  border-left: 4px solid var(--esprit-accent);
   background: rgba(255, 255, 255, 0.20);
 }
 
@@ -468,7 +606,7 @@ body {
   font-size: 0.78rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #8a7352;
+  color: var(--esprit-accent);
 }
 
 .case-box-title {
@@ -506,7 +644,7 @@ body {
   margin: 2.2rem 0;
   padding: 1.25rem 1.4rem;
   border: 1px solid var(--esprit-border);
-  border-left: 4px solid #8a7352;
+  border-left: 4px solid var(--esprit-accent);
   background: rgba(255, 255, 255, 0.16);
 }
 
@@ -517,7 +655,7 @@ body {
   font-size: 0.78rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #8a7352;
+  color: var(--esprit-accent);
 }
 
 .exam-box-title {
@@ -558,7 +696,7 @@ body {
   margin: 1.4rem 0 2.4rem;
   padding: 1.15rem 1.35rem;
   border: 1px solid var(--esprit-border);
-  border-left: 4px solid #8a7352;
+  border-left: 4px solid var(--esprit-accent);
   background: rgba(255, 255, 255, 0.14);
 }
 
@@ -569,7 +707,7 @@ body {
   font-size: 0.76rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #8a7352;
+  color: var(--esprit-accent);
 }
 
 .series-box-title {
@@ -639,7 +777,7 @@ body {
 }
 
 :focus-visible {
-  outline: 2px solid #8a7352;
+  outline: 2px solid var(--esprit-accent);
   outline-offset: 3px;
 }
 
@@ -674,7 +812,7 @@ body {
   }
 
   .site-nav .nav-trigger:focus-visible + label {
-    outline: 2px solid #8a7352;
+    outline: 2px solid var(--esprit-accent);
     outline-offset: 3px;
   }
 
