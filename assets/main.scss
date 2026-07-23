@@ -401,8 +401,27 @@ body {
 }
 
 @media (prefers-color-scheme: dark) {
+  html {
+    background-color: #101827;
+  }
+
   body {
-    background-color: #101827 !important;
+    position: relative;
+    isolation: isolate;
+    background-color: transparent !important;
+    background-image: none;
+  }
+
+  body::before {
+    content: "";
+    position: fixed;
+    top: -12vh;
+    right: 0;
+    bottom: -12vh;
+    left: 0;
+    z-index: -1;
+    pointer-events: none;
+    background-color: #101827;
     background-image:
       radial-gradient(
         ellipse at 50% 112%,
@@ -417,8 +436,7 @@ body {
       );
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100% 100vh;
-    background-attachment: fixed;
+    background-size: 100% 100%;
   }
 
   .site-header,
@@ -433,6 +451,10 @@ body {
 @media print, (forced-colors: active) {
   body {
     background-image: none !important;
+  }
+
+  body::before {
+    content: none !important;
   }
 }
 
