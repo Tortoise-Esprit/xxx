@@ -30,10 +30,9 @@ list_title: Recent Essays
   right: 2rem;
   width: 220px;
   height: 220px;
-  background-image: url("/assets/img/logo-t-512.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: var(--esprit-accent);
+  -webkit-mask: url("/assets/img/logo-t-monochrome.svg") center / contain no-repeat;
+  mask: url("/assets/img/logo-t-monochrome.svg") center / contain no-repeat;
   opacity: 0.045;
   pointer-events: none;
   transform: translateY(-50%);
@@ -60,7 +59,6 @@ list_title: Recent Essays
   }
 
   .home-gateway::before {
-    filter: invert(1) brightness(1.05);
     opacity: 0.055;
   }
 }

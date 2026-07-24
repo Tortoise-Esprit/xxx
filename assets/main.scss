@@ -263,10 +263,9 @@ body {
   width: 56px;
   height: 56px;
 
-  background-image: url("/assets/img/logo-t-512.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: currentColor;
+  -webkit-mask: url("/assets/img/logo-t-monochrome.svg") center / contain no-repeat;
+  mask: url("/assets/img/logo-t-monochrome.svg") center / contain no-repeat;
 }
 
 .site-title::after {
@@ -343,12 +342,6 @@ body {
     --esprit-hover: #d6c19a;
     --esprit-surface: #25221f;
     --esprit-nav-bg: transparent;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .site-title::before {
-    filter: invert(1) brightness(1.05);
   }
 }
 
