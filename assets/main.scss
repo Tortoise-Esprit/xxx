@@ -266,6 +266,7 @@ body {
   background-color: currentColor;
   -webkit-mask: url("/assets/img/logo-t-monochrome.svg") center / contain no-repeat;
   mask: url("/assets/img/logo-t-monochrome.svg") center / contain no-repeat;
+  mask-mode: alpha;
 }
 
 .site-title::after {

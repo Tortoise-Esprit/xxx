@@ -33,6 +33,7 @@ list_title: Recent Essays
   background-color: var(--esprit-accent);
   -webkit-mask: url("/assets/img/logo-t-monochrome.svg") center / contain no-repeat;
   mask: url("/assets/img/logo-t-monochrome.svg") center / contain no-repeat;
+  mask-mode: alpha;
   opacity: 0.045;
   pointer-events: none;
   transform: translateY(-50%);
