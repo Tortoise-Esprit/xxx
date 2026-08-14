@@ -150,7 +150,7 @@ Einfühlung
 
 ## 参考文献
 
-1. K. ヤスパース、西丸四方、『精神病理学原論』、みすず書房、年
+1. K. ヤスパース、西丸四方 訳、『精神病理学原論』第23刷、みすず書房、2016年
 2. 西丸四方、西丸甫夫、『精神医学入門』改訂25版、南山堂、p.222-223、2016年
 3. American Psychiatric Association. *Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition.* American Psychiatric Association, 2013, p.762.
-4. 内海健
+4. 内海健、津川律子、『援助者必携　カウンセリングのための精神病理学入門』、金剛出版、2025年
