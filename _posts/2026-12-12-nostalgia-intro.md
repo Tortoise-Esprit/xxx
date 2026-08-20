@@ -17,7 +17,7 @@ description: ""
 
 　そのロシア人記者は、そのドイツ人の流した涙に微塵も同情していない。何かを切望することは誰にでもあるが、ノスタルジアは分断することもある。カリーニングラード＝ケーニヒスベルクという都市そのものは失われた幻想のテーマパークのようだ。例の夫婦が懐かしんでいたのは何に対してだろうか。古い都市あるいは幼い頃に聞かされた物語だろうか。一度も故郷であったことのない場所をどうして故郷として思えるのだろうか。その男は映画やおとぎ話で知った儀式的な仕草を通じて自身の帰郷を印づけようとした。彼はついにその場所へ帰ることによって、帰郷への切望を癒すことを夢見たのだ。ノスタルジアに取り憑かれた彼は現実の過去を忘れていた。幻想は彼の顔に火傷を残した。
  
-　ノスタルジア—_nostos_は帰郷を、_algia_は切望を指す—はもはや存在しないか、一度も存在しなかった故郷への憧れである。ノスタルジアは喪失と離郷の感情であるが、自身の幻想とのロマンスでもある。ノスタルジックな愛は遠距離恋愛でしか生き延びられない。ノスタルジアを映画的な像に例えるならば、それは二重露光である。すなわち故郷と異郷、過去と現在、夢と日常—二つの像の重ね合わせである。私たちがそれらを一つの像に押し込もうとする瞬間、像はそのフレームを破り、表面を焦がしてしまう。
+　ノスタルジア—*nostos*は帰郷を、*algia*は切望を指す—はもはや存在しないか、一度も存在しなかった故郷への憧れである。ノスタルジアは喪失と離郷の感情であるが、自身の幻想とのロマンスでもある。ノスタルジックな愛は遠距離恋愛でしか生き延びられない。ノスタルジアを映画的な像に例えるならば、それは二重露光である。すなわち故郷と異郷、過去と現在、夢と日常—二つの像の重ね合わせである。私たちがそれらを一つの像に押し込もうとする瞬間、像はそのフレームを破り、表面を焦がしてしまう。
  
 　ノスタルジアに処方箋を求めようなどと、私達は思いもしないだろう。ところが17世紀には、ノスタルジアは風邪と同じように、治療可能な疾患と考えられていた。スイス人の医師ヨハネス・ホーファーはアヘンや蛭、スイス・アルプスへの旅行がノスタルジアの症状を治せると信じていた。21世紀には、かつての一過性の疾患は、不治の現代病に変わっていた。
 　20世紀は未来主義的なユートピアとともに始まり、ノスタルジアとともに終焉を迎えた。未来に対する楽観的な信頼は、時代遅れの宇宙船のように、1960年代のある時点で放棄された。ノスタルジアそのものにはユートピア的な側面があるのだが、もはや未来へ向かうことはない。時にノスタルジアは過去へ向かうこともなく、むしろ脇道へ向かうこともあろう。ノスタルジアを抱く人は、既成の時間と空間の中に息苦しさを覚える。
@@ -45,10 +45,10 @@ description: ""
  
 　ノスタルジアはその根本的な両義性を伴って私たちを魅惑し、焦らす。反復不能の反復、非物質性の物質化についてである。スーザン・ステュワートは「ノスタルジアとは、すべての反復の非真性を嘆く反復であり、反復によってアイデンティティを規定する可能性を否定するものだ」と綴っている<sup>4</sup>。ノスタルジアは時間に空間を描き込み、空間に時間を描き込み、主体と客体の間の違いを曖昧にする。それは2つの顔を持つヤヌス神のようであり、両刃の剣にも似ている。ノスタルジアの断片を掘り出すためには、記憶と場所についての二重の考古学、幻想と現実の実践についての二重の歴史が必要となる。
  
-　第1部、「心のヒポコンドリア」は、治療可能な病から治癒不能な状態へ、_maladie du pays_（故郷病）から_mal du siècle_（世紀病）への変化——疾患としてのノスタルジアの歴史をたどる。私たちはノスタルジアのたどった道筋、ロマンティック・ナショナリズムの牧歌的場面から近代が残した都市廃墟まで、精神の詩的風景からサイバー空間と外宇宙へ、追いかけていく。
+　第1部、「心のヒポコンドリア」は、治療可能な病から治癒不能な状態へ、*maladie du pays*（故郷病）から*mal du siècle*（世紀病）への変化——疾患としてのノスタルジアの歴史をたどる。私たちはノスタルジアのたどった道筋、ロマンティック・ナショナリズムの牧歌的場面から近代が残した都市廃墟まで、精神の詩的風景からサイバー空間と外宇宙へ、追いかけていく。
  
-　ノスタルジアに対する魔法の治療の代わりに、誘惑と巧みな操作というノスタルジアの構造のいくつかを明らかにするかもしれない類型論が提供される。ここで二つのノスタルジアが区別される。一つは修復的ノスタルジアでもう一つは省察的ノスタルジアである。修復的ノスタルジアは _nostos_ を強調し失われた故郷を、歴史を超えたものとして再構築しようとする。
-　省察的ノスタルジアは _algia_、切望そのものに息づき、帰郷を遅らせる—切なく、皮肉を込めて、必死に。修復的ノスタルジアは、自らをノスタルジアとは考えないが、むしろ真実と伝統として考える。省察的ノスタルジアは人間の切望と帰属の両義性にあり、近代性の矛盾を避けようとしない。修復的ノスタルジアは絶対的真実を守るが、一方で省察的ノスタルジアはそれを疑う。
+　ノスタルジアに対する魔法の治療の代わりに、誘惑と巧みな操作というノスタルジアの構造のいくつかを明らかにするかもしれない類型論が提供される。ここで二つのノスタルジアが区別される。一つは修復的ノスタルジアでもう一つは省察的ノスタルジアである。修復的ノスタルジアは *nostos* を強調し失われた故郷を、歴史を超えたものとして再構築しようとする。
+　省察的ノスタルジアは *algia*、切望そのものに息づき、帰郷を遅らせる—切なく、皮肉を込めて、必死に。修復的ノスタルジアは、自らをノスタルジアとは考えないが、むしろ真実と伝統として考える。省察的ノスタルジアは人間の切望と帰属の両義性にあり、近代性の矛盾を避けようとしない。修復的ノスタルジアは絶対的真実を守るが、一方で省察的ノスタルジアはそれを疑う。
  
 　修復的ノスタルジアは近年の国家的・宗教的復興の中心にある。2つの筋書きがある。原点への回帰と陰謀である。省察的ノスタルジアは一つの筋書きに従わないが一度に多くの場所に居住し異なる時間領域を構想する方法を探求する。それは象徴ではなく詳細を愛する。最良の場合には、省察的ノスタルジアは倫理的で創造的な挑戦を提示するが、単に、真夜中のメランコリアに対する口実を提示するものではない。ノスタルジアの類型論は国家のアイデンティティに基づく国家の記憶と、社会の記憶、すなわち個人の記憶を定義はしないが印付ける集団的枠組みで構成されるものを区別できるようにするのだ。
  
@@ -63,10 +63,10 @@ description: ""
 
 脚注
 
-1. “Farewell to Nostalgia, ” _Smena_, June 1993.
+1. “Farewell to Nostalgia, ” *Smena*, June 1993.
 
 2. Charles Maier, “The End of Longing?” Notes Towards a History of Postwar German National Longing,” paper presented at the Berkeley Center for German and European Studies, December 1995, Berkeley, CA.
 
 3. Michael Kammen, Mystic Chords of Memory (NewYork: Vintage, 1991), 688.
 
-4. Susan Stewart, _On Longing_ (Baltimore: Johns Hopkins University Press, 1985). See also Vladimir Yankelévitch, _L'Irréversible et la nostalgie_ (Paris: Flammarion, 1974); David Lowenthal, The Past Is a Foreign Country (Cambridge: Cambridge University Press, 1985); Michael Roth, “Returning to Nostalgia,” in Suzanne Nash, ed., _Home and Its Dislocation in Nineteenth-Century France_ (Albany: SUNY Press, 1993), 25-45; George Steiner, _Nostalgia for the Absolute_ (Toronto: CBC, 1974). For the most recent discussion of the return of nostalgia see Andreas Huyssen, _Twilight Memories: Marking Time in a Culture of Amnesia_ (New York and London: Routledge, 1995); and Linda Hutcheon, “Irony, Nostalgia and the Post-modern,” paper presented at MLA conference, San Francisco, December 1997.
+4. Susan Stewart, *On Longing* (Baltimore: Johns Hopkins University Press, 1985). See also Vladimir Yankelévitch, *L'Irréversible et la nostalgie* (Paris: Flammarion, 1974); David Lowenthal, The Past Is a Foreign Country (Cambridge: Cambridge University Press, 1985); Michael Roth, “Returning to Nostalgia,” in Suzanne Nash, ed., *Home and Its Dislocation in Nineteenth-Century France* (Albany: SUNY Press, 1993), 25-45; George Steiner, *Nostalgia for the Absolute* (Toronto: CBC, 1974). For the most recent discussion of the return of nostalgia see Andreas Huyssen, *Twilight Memories: Marking Time in a Culture of Amnesia* (New York and London: Routledge, 1995); and Linda Hutcheon, “Irony, Nostalgia and the Post-modern,” paper presented at MLA conference, San Francisco, December 1997.
