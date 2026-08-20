@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "リフレクション2021-2026"
+title: "リフレクション"
 date: 2026-08-15
 published: false
 excerpt: ""
