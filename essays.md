@@ -4,7 +4,7 @@ title: Essays
 permalink: /essays/
 ---
 
-これまでに公開したエッセイの一覧です。新しいものから年ごとに並べています。
+これまでに公開した記事の一覧です。新しいものから年ごとに並べています。
 
 <div class="essay-archive">
   {%- assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" -%}
