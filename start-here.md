@@ -37,6 +37,7 @@ permalink: /start-here/
       <li><a href="/2025/05/18/first-post.html">原点</a></li>
       <li><a href="/2026/01/23/overture.html">パターン＜序＞</a></li>
       <li><a href="/2026/04/08/paranoiafrage1.html">パラノイア問題（I）</a></li>
+      <li><a href="/2026/06/25/paranoiafrage1.html">パーソナリティの考古学（I）</a></li>
     </ul>
   </section>
 </div>
