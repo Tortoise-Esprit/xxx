@@ -13,6 +13,7 @@ description: ""
     <li><a href="/2026/06/25/personality1.html">パーソナリティの考古学 (I)</a></li>
     <li><a href="/2026/07/19/personality2.html">パーソナリティの考古学 (II)</a></li>
     <li><span class="series-box-current">パーソナリティの考古学 (III)</span></li>
+     <li><a href="/2026/08/24/personality4.html">パーソナリティの考古学 (IV)</a></li>
   </ol>
 </div>
 
