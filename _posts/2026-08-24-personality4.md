@@ -16,8 +16,8 @@ description: ""
     <li><span class="series-box-current">パーソナリティの考古学 (IV)</span></li>
   </ol>
 </div>
-## 「Einfühlung」再考
 
+## 「Einfühlung」再考
 ### AMPDにおける「共感」
 前回の記事でパーソナリティ機能を説明した。自己機能と対人関係機能はICD-11、AMPDのどちらにも核心的な要素であるが、AMPDでは、対人関係機能は「共感」と「親密性」によって評価される。ここでAMPDがいう「共感」は、注意が必要で、<strong>他人と同じ感情を感じることや、他者への憐憫を直接意味しない。</strong>AMPDでは、対人関係機能としての empathy を次のように定義している。[^1]
 
