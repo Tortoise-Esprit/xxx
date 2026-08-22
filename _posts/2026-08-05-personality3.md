@@ -3,8 +3,8 @@ layout: post
 title: "パーソナリティの考古学(III)"
 date: 2026-08-05
 published: false
-excerpt: ""
-description: ""
+excerpt: "類型から特性へ。ICD-11とAMPDは、パーソナリティをどのように記述し直そうとしているのか。"
+description: "ICD-11とDSM-5の代替モデルAMPDにおけるパーソナリティ特性を比較し、特性領域、境界性パーソナリティ症などの診断構造、類型モデルから次元モデルへの変化を考察する。"
 ---
 <div class="series-box">
   <span class="series-box-label">Series</span>
