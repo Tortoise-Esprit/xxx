@@ -70,3 +70,11 @@ Einは「こちらから向こう側へ、中へ」を表す接頭辞、「fühl
 ### Aを共感できるのか
 
 前回の記事で[架空事例A](/2026/07/19/personality2.html)なるものを紹介した。簡単に述べると、経歴は優秀な精神科医で、現在は開業しているとともに精神医学を紹介するYouTuberをしているが、同業者の経歴や資格に対するこだわりが強い人物で、度々同業者に対して
+
+## 参考文献
+
+[^1]: American Psychiatric Association. *Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition.* American Psychiatric Association, 2013.
+[^2]: 西丸四方、西丸甫夫、『精神医学入門』改訂25版、南山堂、p.222-223、2016年
+[^3]: K. ヤスパース、西丸四方 訳、『精神病理学原論』第23刷、みすず書房、2016年
+[^4]: 内海健、津川律子、『援助者必携　カウンセリングのための精神病理学入門』、金剛出版、2025年
+
