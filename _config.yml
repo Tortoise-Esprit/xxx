@@ -25,6 +25,7 @@ image: "/assets/ogp/ogp-default.png"
 
 header_pages:
   - about.md
+  - essays.md
   - glossary/index.md
   - fragments.md
   - contact.md
