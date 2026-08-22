@@ -12,7 +12,8 @@ description: "シュナイダーの精神病質概念からICD-11とAMPDへ。�
   <ol>
     <li><a href="/2026/06/25/personality1.html">パーソナリティの考古学 (I)</a></li>
     <li><span class="series-box-current">パーソナリティの考古学 (II)</span></li>
-    <li><a href="#">パーソナリティの考古学 (III)</a></li>
+    <li><a href="/2026/08/05/personality3.html">パーソナリティの考古学 (III)</a></li>
+    <li><a href="/2026/08/24/personality4.html">パーソナリティの考古学 I(V)</a></li>
   </ol>
 </div>
 
