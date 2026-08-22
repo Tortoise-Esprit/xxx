@@ -12,7 +12,7 @@ layout: default
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
-      {%- for post in site.posts -%}
+      {%- for post in site.posts limit: 8 -%}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         <h3>
@@ -26,6 +26,10 @@ layout: default
       </li>
       {%- endfor -%}
     </ul>
+
+    <p class="post-archive-link">
+      <a class="home-gateway-link" href="{{ "/essays/" | relative_url }}">全{{ site.posts.size }}篇を見る →</a>
+    </p>
 
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   {%- endif -%}
