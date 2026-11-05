@@ -7,7 +7,7 @@ excerpt: ""
 description: ""
 ---
 
-![Brompton P Line Lunar Ice](/assets/images/DSC_1143.JPG)
+![Brompton P Line Lunar Ice](/assets/images/fragments/DSC_1143.JPG)
 
 ### 速く移動したい
 
